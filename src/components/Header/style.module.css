@@ -1,0 +1,40 @@
+.header {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+
+.header_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-wrapper {
+  max-width: 120px;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+  color: #6d80b0;
+  /* font-size: small; */
+}
+
+.color {
+  color: hsl(223, 26%, 35%);
+}
+.navigation {
+  display: flex;
+  gap: 15px;
+}
+
+.active {
+  color: #435072;
+  text-decoration: underline;
+}
+
+.relative {
+  position: relative;
+}

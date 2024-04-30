@@ -1,6 +1,6 @@
 import PageContainer from "../../components/PageContainer";
 
-const Portfolio = () => {
+const Services = () => {
   return (
     <>
       <PageContainer>
@@ -10,4 +10,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Services;
