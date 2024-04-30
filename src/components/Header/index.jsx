@@ -1,5 +1,6 @@
 import { NavLink, Link } from "react-router-dom";
 import styles from "./style.module.css";
+import { FcRight } from "react-icons/fc";
 const index = () => {
   return (
     <header className={styles.header}>
@@ -52,7 +53,15 @@ const index = () => {
               <p>AZ</p>
 
               <Link to="/contact">
-                <button>Əlaqə</button>
+                <button
+                // style={{
+                //   display: "flex",
+                //   gap: "10px",
+                // }}
+                >
+                  <p>Əlaqə</p>
+                  {/* <img src="./header/photo12.png" alt="" /> */}
+                </button>
               </Link>
             </nav>
           </div>

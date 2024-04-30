@@ -14,8 +14,8 @@ const Home = () => {
         <div>
           <Container>
             <Row>
-              <Col xs={12} sm={6} lg={6} xl={6}>
-                <Homeimg img="./header/photo11.png" />
+              <Col className="mt-5" xs={12} sm={6} lg={6} xl={6}>
+                <Homeimg img="" />
               </Col>
             </Row>
           </Container>
