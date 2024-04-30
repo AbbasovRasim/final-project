@@ -15,7 +15,7 @@ const Home = () => {
           <Container>
             <Row>
               <Col className="mt-5" xs={12} sm={6} lg={6} xl={6}>
-                <Homeimg img="" />
+                <Homeimg img="./header/photo11.png" />
               </Col>
             </Row>
           </Container>
