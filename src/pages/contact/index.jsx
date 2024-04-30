@@ -1,13 +1,13 @@
 import PageContainer from "../../components/PageContainer";
 
-const Portfolio = () => {
+const Contact = () => {
   return (
     <>
       <PageContainer>
-        <div></div>
+        <div>Rasim</div>
       </PageContainer>
     </>
   );
 };
 
-export default Portfolio;
+export default Contact;
