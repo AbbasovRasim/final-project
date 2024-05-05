@@ -23,19 +23,24 @@ const Home = () => {
                 <Col className="mt-5" xs={12} sm={6} lg={6} xl={6}>
                   <Homeimg img="./header/photo11.png" />
                 </Col>
-                <Col className="mt-5 " xs={12} sm={6} lg={6} xl={6}>
-                  <Hometitle title="İnteryer dizayn" />
+                <Col className="mt-5" xs={12} sm={6} lg={6} xl={6}>
+                  <div style={{ marginBottom: "50px" }}>
+                    <Hometitle title="İnteryer dizayn" />
+                  </div>
+
                   <Hometitle desc="Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir." />
 
-                  <button>Daha ətraflı</button>
+                  <button className="button">Daha ətraflı</button>
                 </Col>
               </Row>
               <Row>
                 <Col className="mt-5" xs={12} sm={6} lg={6} xl={6}>
-                  <Hometitle title2="Eksteryer və Landşaft dizayn" />
-                  <Hometitle desc2="Eksteryer dedikde ilk öncə ağıla gələn layihənin fasad görünüşüdür. Fasad dizaynında mütləq olaraq bina ölçüləri nəzərə alınmalıdır. Bu ölçülərə əsasən də üslub və bu üsluba uyğun materialı düzgün seçmək lazımdır." />
+                  <div style={{ marginBottom: "50px", marginTop: "50px" }}>
+                    <Hometitle title="Eksteryer və Landşaft dizayn" />
+                  </div>
+                  <Hometitle desc="Eksteryer dedikde ilk öncə ağıla gələn layihənin fasad görünüşüdür. Fasad dizaynında mütləq olaraq bina ölçüləri nəzərə alınmalıdır. Bu ölçülərə əsasən də üslub və bu üsluba uyğun materialı düzgün seçmək lazımdır." />
 
-                  <button>Daha ətraflı</button>
+                  <button className="button">Daha ətraflı</button>
                 </Col>
                 <Col className="mt-5" xs={12} sm={6} lg={6} xl={6}>
                   <Homeimg img="./header/photo14.png" />
@@ -47,10 +52,12 @@ const Home = () => {
                   <Homeimg img="./header/photo15.png" />
                 </Col>
                 <Col className="mt-5 " xs={12} sm={6} lg={6} xl={6}>
-                  <Hometitle title3="Ticarət Obyektlərinin dizaynı" />
-                  <Hometitle desc3="Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir." />
+                  <div style={{ marginBottom: "50px", marginTop: "50px" }}>
+                    <Hometitle title="Ticarət Obyektlərinin dizaynı" />
+                  </div>
+                  <Hometitle desc="Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir." />
 
-                  <button>Daha ətraflı</button>
+                  <button className="button">Daha ətraflı</button>
                 </Col>
               </Row>
             </Container>
@@ -118,7 +125,7 @@ const Home = () => {
         <div className="container">
           <HomeGalery2 />
 
-          <h1 style={{ textAlign: "center" }}>
+          <h1 className="">
             Hər hansı bir sualınız var? <br />
             Online müraciət göndərin
           </h1>

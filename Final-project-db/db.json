@@ -1,10 +1,240 @@
 {
-    "contact": [
+  "contact": [
     {
-      "id": "c4db",
-      "fullname": "xzxzxzxzx",
-      "email": "xzxzx@wldmlmf",
+      "id": "56f1"
+    },
+    {
+      "id": "c5e8",
+      "fullname": "asmodsmds",
+      "email": "",
       "phone": "",
       "message": ""
-      }]
+    },
+    {
+      "id": "befc",
+      "fullname": "asmodsmds",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "d409",
+      "fullname": "tytytut",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "ddb5",
+      "fullname": "Zeyd",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "8e99",
+      "fullname": "rasim",
+      "phone": "123456"
+    },
+    {
+      "id": "891b",
+      "fullname": "Abbasov",
+      "phone": ""
+    },
+    {
+      "id": "6a45",
+      "fullname": "xxc x",
+      "phone": ""
+    },
+    {
+      "id": "79c1",
+      "fullname": "dssdsds",
+      "phone": "dsdsds"
+    },
+    {
+      "id": "f852",
+      "fullname": "Abbasov Rasim",
+      "phone": "0997010120"
+    },
+    {
+      "id": "ccec",
+      "fullname": "",
+      "phone": ""
+    },
+    {
+      "id": "4ace",
+      "fullname": "",
+      "phone": ""
+    },
+    {
+      "id": "03c8",
+      "fullname": "",
+      "phone": ""
+    },
+    {
+      "id": "9fd6",
+      "fullname": "",
+      "phone": ""
+    },
+    {
+      "id": "0cb1",
+      "fullname": "",
+      "phone": ""
+    },
+    {
+      "id": "7d67",
+      "fullname": "",
+      "phone": ""
+    },
+    {
+      "id": "3dbb",
+      "fullname": "",
+      "phone": ""
+    },
+    {
+      "id": "4948",
+      "fullname": "",
+      "phone": ""
+    },
+    {
+      "id": "100a",
+      "fullname": "",
+      "phone": ""
+    },
+    {
+      "id": "71f5",
+      "fullname": "",
+      "phone": "d"
+    },
+    {
+      "id": "a454",
+      "fullname": "vdvdvd",
+      "phone": "vvd"
+    },
+    {
+      "id": "61ae",
+      "fullname": "dcdcdcdcd",
+      "phone": ""
+    },
+    {
+      "id": "7c9a",
+      "fullname": "mail",
+      "phone": ""
+    },
+    {
+      "id": "f9cb",
+      "fullname": "zxzxz",
+      "phone": ""
+    },
+    {
+      "id": "915b",
+      "fullname": "zxzxz",
+      "phone": ""
+    },
+    {
+      "id": "013e",
+      "fullname": "zxzxz",
+      "phone": ""
+    },
+    {
+      "id": "d0af",
+      "fullname": "zxzxz",
+      "phone": "xsxsxs"
+    },
+    {
+      "id": "5794",
+      "fullname": "zxzxz",
+      "phone": "xsxsxs"
+    },
+    {
+      "id": "dcb6",
+      "fullname": "zxzxz",
+      "phone": "xsxsxs"
+    },
+    {
+      "id": "4a7d",
+      "fullname": "zxzxz",
+      "phone": "xsxsxs"
+    },
+    {
+      "id": "7e53",
+      "fullname": "Rasim Abbasov",
+      "phone": "0997010120"
+    },
+    {
+      "id": "654e",
+      "fullname": "",
+      "phone": ""
+    },
+    {
+      "id": "5a1a",
+      "fullname": "",
+      "phone": ""
+    },
+    {
+      "id": "133b",
+      "fullname": "abbasova Irada",
+      "phone": "0998010120"
+    }
+
+
+
+
+  ],
+
+"portfolio":[
+  {"id": "1",
+      "img":"/portfolioimages/photo18.png"
+    ,"title":"Yataq otağı"
+  ,"img1":"/portfolioimages/singleportfolio1.png",
+  "img2":"/portfolioimages/singleportfolio2.png",
+  "img3":"/portfolioimages/singleportfolio3.png",
+  "img4":"/portfolioimages/singleportfolio4.png",
+  "img5":"/portfolioimages/singleportfolio3.png",
+  "img6":"/portfolioimages/singleportfolio4.png"
+    
+  },
+
+
+      {"id": "2",
+      "img": "/portfolioimages/photo23.png"
+    ,"title":"Lorem"},
+      {"id": "3",
+      "img": "/portfolioimages/photo21.png"
+    ,"title":"Lorem"},
+
+
+
+
+    {"id": "4",
+      "img":"/portfolioimages/photo24.png"
+    ,"title":"Lorem"
+  },
+
+
+      {"id": "5",
+      "img": "/portfolioimages/photo21.png"
+    ,"title":"Lorem"},
+      {"id": "6",
+      "img":"/portfolioimages/photo22.png"
+    ,"title":"Lorem"},
+
+
+        {"id": "7",
+      "img":"/portfolioimages/photo28.png"
+    ,"title":"Lorem"
+    ,"title":"lotrm"
+  },
+
+
+      {"id": "8",
+      "img": "/portfolioimages/photo28.png"
+    ,"title":"Lorem"},
+      {"id": "9",
+      "img": "/portfolioimages/photo29.png"
+    ,"title":"Lorem"}
+]
+  
+
 }
+
