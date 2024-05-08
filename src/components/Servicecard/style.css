@@ -1,0 +1,3 @@
+.service-card:nth-child(2n) > .service-card-left {
+  order: 1;
+}

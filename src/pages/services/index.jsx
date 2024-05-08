@@ -24,9 +24,13 @@ const Services = () => {
           <Row>
             {services.map((obj) => {
               return (
-                <Col key={obj.id} className="mt-5" xs={12} sm={6} lg={6} xl={6}>
-                  <Servicecard id={obj.id} title={obj.title} desc={obj.desc} />
-                </Col>
+                <Servicecard
+                  key={obj.id}
+                  id={obj.id}
+                  img={obj.img}
+                  title={obj.title}
+                  desc={obj.desc}
+                />
               );
             })}
           </Row>

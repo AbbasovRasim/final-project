@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import styles from "./style.module.css";
 const index = () => {
   return (
-    <header className={styles.header}>
+    <footer className={styles.header}>
       <div className="container ">
         <div className={styles.header_wrapper}>
           <div className={styles.header_wrapper}>
@@ -47,7 +47,7 @@ const index = () => {
           </div>
         </div>
       </div>
-    </header>
+    </footer>
   );
 };
 

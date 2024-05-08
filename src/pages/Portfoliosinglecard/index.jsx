@@ -24,7 +24,8 @@ const Portfoliosinglecard = () => {
   return (
     <>
       <PageContainer>
-        <Container>
+        lorem
+        {/* <Container>
           <h1 style={{ color: "white", textAlign: "center" }}>
             {portfolioDetailsData.title1}
           </h1>
@@ -58,7 +59,7 @@ const Portfoliosinglecard = () => {
               <Image src={portfolioDetailsData.img6} />
             </Col>
           </Row>
-        </Container>
+        </Container> */}
       </PageContainer>
     </>
   );

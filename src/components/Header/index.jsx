@@ -8,7 +8,7 @@ const index = () => {
         <div className={styles.header_wrapper}>
           <div>
             <Link>
-              <img src="./header/photo2.png" alt="" />
+              <img src="/header/photo2.png" alt="" />
             </Link>
           </div>
 
