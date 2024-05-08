@@ -1,8 +1,8 @@
 .header {
-  background-color: #fff;
   position: sticky;
   top: 0;
   z-index: 9;
+  background-color: rgba(34, 34, 34, 1);
 }
 
 .header_wrapper {
@@ -32,7 +32,7 @@ nav {
 }
 
 .active {
-  color: #435072;
+  color: white;
   text-decoration: underline;
 }
 

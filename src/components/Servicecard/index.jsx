@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 // import Card from "react-bootstrap/Card";
-function Portfoliocard(props) {
-  const { id, img, title } = props;
+function Servicecard(props) {
+  const { id, title, desc, img } = props;
 
   return (
     // <Card>
@@ -11,11 +11,13 @@ function Portfoliocard(props) {
     // </Card>
 
     <>
+      <h4>{title}</h4>
+      <p> {desc}</p>
       <img src={img} alt="" />
-      <div style={{ textAlign: "center" }}>
-        <Link to={`/portfolio/${id}`}>{title}</Link>
-      </div>
+      <Link to={`/services/${id}`}>
+        <button> Daha etrafli</button>
+      </Link>
     </>
   );
 }
-export default Portfoliocard;
+export default Servicecard;

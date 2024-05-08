@@ -24,7 +24,7 @@ const Home = () => {
                   <Homeimg img="./header/photo11.png" />
                 </Col>
                 <Col className="mt-5" xs={12} sm={6} lg={6} xl={6}>
-                  <div style={{ marginBottom: "50px" }}>
+                  <div style={{ marginBottom: "50px", marginTop: "50px" }}>
                     <Hometitle title="İnteryer dizayn" />
                   </div>
 

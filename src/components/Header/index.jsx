@@ -15,42 +15,47 @@ const index = () => {
           <div className={styles.header_wrapper}>
             <nav>
               <NavLink
+                style={{ color: "white", textDecoration: "none" }}
                 className={({ isActive }) => (isActive ? styles.active : "")}
                 to="/"
               >
                 Əsas səhifə
               </NavLink>
               <NavLink
+                style={{ color: "white", textDecoration: "none" }}
                 className={({ isActive }) => (isActive ? styles.active : "")}
                 to="/portfolio"
               >
                 Portfolio
               </NavLink>
               <NavLink
+                style={{ color: "white", textDecoration: "none" }}
                 className={({ isActive }) => (isActive ? styles.active : "")}
                 to="/services"
               >
                 Xidmətlər
               </NavLink>
               <NavLink
+                style={{ color: "white", textDecoration: "none" }}
                 className={({ isActive }) => (isActive ? styles.active : "")}
                 to="/contact"
               >
                 Əlaqə
               </NavLink>
               <NavLink
+                style={{ color: "white", textDecoration: "none" }}
                 className={({ isActive }) => (isActive ? styles.active : "")}
                 to="/about"
               >
                 Haqqımızda
               </NavLink>
               <NavLink
+                style={{ color: "white", textDecoration: "underline" }}
                 className={({ isActive }) => (isActive ? styles.active : "")}
                 to="/amazing"
               >
                 Tİ-Amazing Academy
               </NavLink>
-              <p>AZ</p>
 
               <Link to="/contact">
                 <button>

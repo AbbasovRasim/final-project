@@ -5,12 +5,15 @@ import Services from "./pages/services";
 import Contact from "./pages/contact";
 import About from "./pages/about";
 import Amazing from "./pages/amazing";
+
+// import Servicesingle from "./components/Servicesingle";
 import Portfoliosinglecard from "./pages/Portfoliosinglecard";
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/services" element={<Services />} />
+      {/* <Route path="/services/:sID" element={<Servicesingle />} /> */}
       <Route path="/portfolio" element={<Portfolio />} />
       <Route path="/portfolio/:pId" element={<Portfoliosinglecard />} />
       <Route path="/contact" element={<Contact />} />

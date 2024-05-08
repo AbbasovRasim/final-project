@@ -175,66 +175,103 @@
       "id": "133b",
       "fullname": "abbasova Irada",
       "phone": "0998010120"
+    },
+    {
+      "id": "a552",
+      "fullname": "",
+      "phone": ""
+    },
+    {
+      "id": "c7fe",
+      "fullname": "n=niftizde kamran",
+      "phone": "23456"
+    },
+    {
+      "id": "0650",
+      "fullname": "a",
+      "phone": ""
     }
-
-
-
-
   ],
+  "portfolio": [
+    {
+      "id": "1",
+      "img": "/portfolioimages/photo18.png",
+      "title": "Yataq otağı",
+      "title1": "Yataq otağı",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
+      "img1": "/portfolioimages/singleportfolio1.png",
+      "img2": "/portfolioimages/singleportfolio2.png",
+      "img3": "/portfolioimages/singleportfolio3.png",
+      "img4": "/portfolioimages/singleportfolio4.png",
+      "img5": "/portfolioimages/singleportfolio3.png",
+      "img6": "/portfolioimages/singleportfolio4.png"
+    },
+    {
+      "id": "2",
+      "img": "/portfolioimages/photo23.png",
+      "title": "Mətbəxt"
+    },
+    {
+      "id": "3",
+      "img": "/portfolioimages/photo21.png",
+      "title": ""
+    },
+    {
+      "id": "4",
+      "img": "/portfolioimages/photo24.png",
+      "title": "Lorem"
+    },
+    {
+      "id": "5",
+      "img": "/portfolioimages/photo21.png",
+      "title": "Lorem"
+    },
+    {
+      "id": "6",
+      "img": "/portfolioimages/photo22.png",
+      "title": "Lorem"
+    },
+    {
+      "id": "7",
+      "img": "/portfolioimages/photo28.png",
+      "title": "lotrm"
+    },
+    {
+      "id": "8",
+      "img": "/portfolioimages/photo28.png",
+      "title": "Lorem"
+    },
+    {
+      "id": "9",
+      "img": "/portfolioimages/photo29.png",
+      "title": "Lorem"
+    }
+  ],"services": [
 
-"portfolio":[
-  {"id": "1",
-      "img":"/portfolioimages/photo18.png"
-    ,"title":"Yataq otağı"
-  ,"img1":"/portfolioimages/singleportfolio1.png",
-  "img2":"/portfolioimages/singleportfolio2.png",
-  "img3":"/portfolioimages/singleportfolio3.png",
-  "img4":"/portfolioimages/singleportfolio4.png",
-  "img5":"/portfolioimages/singleportfolio3.png",
-  "img6":"/portfolioimages/singleportfolio4.png"
-    
-  },
+    {"id":"1",
+   
+      "img": "/portfolioimages/photo22.png",
 
-
-      {"id": "2",
-      "img": "/portfolioimages/photo23.png"
-    ,"title":"Lorem"},
-      {"id": "3",
-      "img": "/portfolioimages/photo21.png"
-    ,"title":"Lorem"},
-
-
-
-
-    {"id": "4",
-      "img":"/portfolioimages/photo24.png"
-    ,"title":"Lorem"
-  },
-
-
-      {"id": "5",
-      "img": "/portfolioimages/photo21.png"
-    ,"title":"Lorem"},
-      {"id": "6",
-      "img":"/portfolioimages/photo22.png"
-    ,"title":"Lorem"},
-
-
-        {"id": "7",
-      "img":"/portfolioimages/photo28.png"
-    ,"title":"Lorem"
-    ,"title":"lotrm"
-  },
-
-
-      {"id": "8",
-      "img": "/portfolioimages/photo28.png"
-    ,"title":"Lorem"},
-      {"id": "9",
-      "img": "/portfolioimages/photo29.png"
-    ,"title":"Lorem"}
-]
+      "title": "İnteryer dizayn"
+      , "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris "}
+ 
+ 
+ ,
+    {"id":"2",
+   
+    "img": "/portfolioimages/photo22.png",
+     
+      "title": "Eksteryervə Landşaftdizayn"
+      , "desc":"Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ",
+         "img2": "/portfolioimages/photo22.png"} ,
   
 
-}
 
+  {"id":"3",
+   
+    
+     
+      "title": "Ticarət Obyektlərinin dizaynın"
+      , "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris "}
+  
+ ]}   
