@@ -18,10 +18,10 @@ function Servicecard(props) {
       </Col>
 
       <Col className="mt-5" xs={12} sm={6}>
-        <h4>{title}</h4>
-        <p> {desc}</p>
+        <h4 style={{ paddingTop: "50px", color: "white" }}>{title}</h4>
+        <p style={{ color: "white" }}> {desc}</p>
         <Link to={`/services/${id}`}>
-          <button> Daha etrafli</button>
+          <button style={{ marginTop: "50px" }}>Daha ətraflı</button>
         </Link>
       </Col>
     </Row>

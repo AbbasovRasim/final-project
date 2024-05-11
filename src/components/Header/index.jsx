@@ -50,12 +50,17 @@ const index = () => {
                 Haqqımızda
               </NavLink>
               <NavLink
-                style={{ color: "white", textDecoration: "underline" }}
+                style={{ color: "white", textDecoration: "none" }}
                 className={({ isActive }) => (isActive ? styles.active : "")}
                 to="/amazing"
               >
                 Tİ-Amazing Academy
               </NavLink>
+
+              <NavLink
+                className={({ isActive }) => (isActive ? styles.active : "")}
+                to="/notfound"
+              ></NavLink>
 
               <Link to="/contact">
                 <button>

@@ -175,14 +175,113 @@
       "id": "133b",
       "fullname": "abbasova Irada",
       "phone": "0998010120"
+    },
+    {
+      "id": "f06c",
+      "fullname": "",
+      "phone": ""
+    },
+    {
+      "id": "cf3d",
+      "fullname": "",
+      "phone": ""
+    },
+    {
+      "id": "1af5",
+      "fullname": "sdsdfsfd",
+      "phone": "1234567"
+    },
+    {
+      "id": "da9e",
+      "fullname": "dfdvd",
+      "phone": "xcxcx"
+    },
+    {
+      "id": "31af",
+      "fullname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "a8ee",
+      "fullname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "c558",
+      "fullname": "sdsdsdsds",
+      "email": "",
+      "phone": "",
+      "message": "",
+      "Surname": "sdsd"
+    },
+    {
+      "id": "43de",
+      "fullname": "",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "50fb",
+      "fullname": "Rasim",
+      "Surname": "Abbasov",
+      "email": "fvfvf@dknkr.com",
+      "phone": "1234567",
+      "message": "salam "
+    },
+    {
+      "id": "6e7d",
+      "fullname": "xssxs",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "5669",
+      "fullname": "",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "7f12",
+      "fullname": "",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": "salam adim Rasimdir ndjnjs vndbvjdbfvn dvbd vndvbjd vndvjbdfsnb nvd jx vcbbds ndbv hcbvndfbvhdbfvh dnfdvbdf vnsbcs fnsdcisdcsvsdbdsbdvdbhgnbdgvgdhngndfbd"
+    },
+    {
+      "id": "c4f4",
+      "fullname": "irada",
+      "Surname": "abbasov",
+      "email": "ira@mail.ru",
+      "phone": "1234567",
+      "message": "salam  jisbijcsbjidvifjdnguhgu"
+    },
+    {
+      "id": "f89a",
+      "fullname": "",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
     }
   ],
-
   "portfolio": [
     {
       "id": "1",
       "img": "/portfolioimages/photo18.png",
       "title": "Yataq otağı",
+      "title1": "Yataq otağı",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
       "img1": "/portfolioimages/singleportfolio1.png",
       "img2": "/portfolioimages/singleportfolio2.png",
       "img3": "/portfolioimages/singleportfolio3.png",
@@ -190,44 +289,69 @@
       "img5": "/portfolioimages/singleportfolio3.png",
       "img6": "/portfolioimages/singleportfolio4.png"
     },
-
-    { "id": "2", "img": "/portfolioimages/photo23.png", "title": "Lorem" },
-    { "id": "3", "img": "/portfolioimages/photo21.png", "title": "Lorem" },
-
-    { "id": "4", "img": "/portfolioimages/photo24.png", "title": "Lorem" },
-
-    { "id": "5", "img": "/portfolioimages/photo21.png", "title": "Lorem" },
-    { "id": "6", "img": "/portfolioimages/photo22.png", "title": "Lorem" },
-
-    { "id": "7", "img": "/portfolioimages/photo28.png", "title": "Lorem" },
-
-    { "id": "8", "img": "/portfolioimages/photo28.png", "title": "Lorem" },
-    { "id": "9", "img": "/portfolioimages/photo29.png", "title": "Lorem" }
+    {
+      "id": "2",
+      "img": "/portfolioimages/photo23.png",
+      "title": "Lorem"
+    },
+    {
+      "id": "3",
+      "img": "/portfolioimages/photo21.png",
+      "title": "Lorem"
+    },
+    {
+      "id": "4",
+      "img": "/portfolioimages/photo24.png",
+      "title": "Lorem"
+    },
+    {
+      "id": "5",
+      "img": "/portfolioimages/photo21.png",
+      "title": "Lorem"
+    },
+    {
+      "id": "6",
+      "img": "/portfolioimages/photo22.png",
+      "title": "Lorem"
+    },
+    {
+      "id": "7",
+      "img": "/portfolioimages/photo28.png",
+      "title": "Lorem"
+    },
+    {
+      "id": "8",
+      "img": "/portfolioimages/photo28.png",
+      "title": "Lorem"
+    },
+    {
+      "id": "9",
+      "img": "/portfolioimages/photo29.png",
+      "title": "Lorem"
+    }
   ],
   "services": [
     {
       "id": "1",
-      "img": "/portfolioimages/phoro28.png",
-      "title": "Lorem",
-      "desc": "project 1"
+      "img": "/header/photo11.png",
+      "title": "İnteryer dizayn",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ",
+      "title2": "Interyer dizayn",
+      "img2": "/portfolioimages/photo22.png",
+      "desc2": "Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir. İllərdir günümüzə qədər gələn və daxili dizaynlarda istifadə edilən üslubların məkana görə düzgün seçimi vacib amillərdəndir. ",
+      "title3": "İşlərimiz"
     },
     {
       "id": "2",
-      "img": "/portfolioimages/phoro28.png",
-      "title": "Lorem",
-      "desc": "project 2"
+      "img": "/header/photo14.png",
+      "title": "Eksteryer və Landşaft dizayn",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris "
     },
     {
       "id": "3",
-      "img": "/portfolioimages/phoro28.png",
-      "title": "Lorem",
-      "desc": "project 3"
-    },
-    {
-      "id": "4",
-      "img": "/portfolioimages/phoro28.png",
-      "title": "Lorem",
-      "desc": "project 4"
+      "img": "/header/photo15.png",
+      "title": "Ticarət Obyektlərinin dizaynı",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris "
     }
   ]
 }

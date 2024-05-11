@@ -1,8 +1,9 @@
+import "./hometitle.css";
 function Hometitle(props) {
   const { title, desc } = props;
   return (
-    <div>
-      {title}
+    <div className="hometitle">
+      <h4> {title}</h4>
       {desc}
     </div>
   );

@@ -63,7 +63,7 @@ const HomeContact = () => {
           </div>
           <div className={"col-6 d-flex gap-3"}>
             <button className="btn">
-              <span className="me-2">Göndər</span>
+              <button className="me-2">Göndər</button>
             </button>
           </div>
         </div>

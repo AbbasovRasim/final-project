@@ -13,7 +13,12 @@ function Portfoliocard(props) {
     <>
       <img src={img} alt="" />
       <div style={{ textAlign: "center" }}>
-        <Link to={`/portfolio/${id}`}>{title}</Link>
+        <Link
+          style={{ color: "white", textDecoration: "none" }}
+          to={`/portfolio/${id}`}
+        >
+          {title}
+        </Link>
       </div>
     </>
   );

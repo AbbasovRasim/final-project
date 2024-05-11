@@ -11,12 +11,12 @@ import HomeGalery2 from "./Galery2";
 const Home = () => {
   return (
     <>
-      <PageContainer>
-        <div className="background">
-          <div className="container ">
+      <div className="backgroundhome">
+        <PageContainer>
+          <div className="container  ">
             <HomeGalery />
           </div>
-          <h1 style={{ textAlign: "center" }}>Xidmətlərimiz</h1>
+          <h1 style={{ textAlign: "center", color: "white" }}>Xidmətlərimiz</h1>
           <div>
             <Container>
               <Row>
@@ -62,7 +62,14 @@ const Home = () => {
               </Row>
             </Container>
 
-            <h1 style={{ textAlign: "center" }}>İşimizin mərhələləri</h1>
+            <h1
+              style={{
+                textAlign: "center",
+                color: "white",
+              }}
+            >
+              İşimizin mərhələləri
+            </h1>
             <Container>
               <Row>
                 <Col className="mt-5" xs={12} sm={3} lg={3} xl={3}>
@@ -120,19 +127,19 @@ const Home = () => {
               </Row>
             </Container>
           </div>
-        </div>
 
-        <div className="container">
-          <HomeGalery2 />
+          <div className="container">
+            <HomeGalery2 />
 
-          <h1 className="">
-            Hər hansı bir sualınız var? <br />
-            Online müraciət göndərin
-          </h1>
-        </div>
+            <h1 style={{ color: "white" }}>
+              Hər hansı bir sualınız var? <br />
+              Online müraciət göndərin
+            </h1>
+          </div>
 
-        <HomeContact />
-      </PageContainer>
+          <HomeContact />
+        </PageContainer>
+      </div>
     </>
   );
 };
