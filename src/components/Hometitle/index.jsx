@@ -2,10 +2,10 @@ import "./hometitle.css";
 function Hometitle(props) {
   const { title, desc } = props;
   return (
-    <div className="hometitle">
+    <p className="hometitle">
       {title}
       {desc}
-    </div>
+    </p>
   );
 }
 export default Hometitle;

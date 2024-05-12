@@ -1,3 +1,5 @@
+/* @import url(); */
+
 * {
   margin: 0;
   padding: 0;
@@ -23,4 +25,20 @@ img {
   width: 85%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.services-card-header {
+  font-family: Baskerville;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 37.86px;
+  color: #fff;
+}
+
+.services-card-text {
+  font-family: San Francisco;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32.49px;
+  color: #fff;
 }
