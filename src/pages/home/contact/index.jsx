@@ -1,8 +1,8 @@
 import { useState } from "react";
-
-import { FaArrowRight } from "react-icons/fa";
+import { CgArrowLongRight } from "react-icons/cg";
 import axios from "axios";
 import toast from "react-hot-toast";
+import { Container, Row, Col } from "react-bootstrap";
 
 const HomeContact = () => {
   const [formData, setFormData] = useState({
@@ -30,43 +30,50 @@ const HomeContact = () => {
   };
 
   return (
-    <section className="container">
+    <section>
       <form onSubmit={handleFormSubmit}>
-        <div className={"row my-5"}>
-          <div className={"col-6 d-flex  gap-3"}>
-            <input
-              className="p-2 rounded-2 border  w-60"
-              type="text"
-              name=""
-              value={formData.fullname}
-              placeholder="Adınız və Soyadınız"
-              onChange={(e) => {
-                //   setFormData({ ...formData, fullname: e.target.value });
-                setFormData((prev) => {
-                  return { ...prev, fullname: e.target.value };
-                });
-              }}
-            />
+        <Container className=" border my-5 py-5">
+          <Row>
+            <Col className="mt-3 my-5" xs={12} sm={3} lg={3} xl={3}>
+              <input
+                className="p-2 rounded-2 border  w-30"
+                type="text"
+                name=""
+                value={formData.fullname}
+                placeholder="Adınız və Soyadınız"
+                onChange={(e) => {
+                  //   setFormData({ ...formData, fullname: e.target.value });
+                  setFormData((prev) => {
+                    return { ...prev, fullname: e.target.value };
+                  });
+                }}
+              />
+            </Col>
+            <Col className="mt-3 " xs={12} sm={6} lg={6} xl={6}>
+              <input
+                value={formData.phone}
+                className="p-2 rounded-2 border w-30"
+                type="text"
+                name=""
+                placeholder="Əlaqə nömrəsi"
+                onChange={(e) => {
+                  setFormData((prev) => {
+                    return { ...prev, phone: e.target.value };
+                  });
+                }}
+              />
+            </Col>
 
-            <input
-              value={formData.phone}
-              className="p-2 rounded-2 border w-40"
-              type="text"
-              name=""
-              placeholder="Əlaqə nömrəsi"
-              onChange={(e) => {
-                setFormData((prev) => {
-                  return { ...prev, phone: e.target.value };
-                });
-              }}
-            />
-          </div>
-          <div className={"col-6 d-flex gap-3"}>
-            <button className="btn">
-              <button className="me-2">Göndər</button>
-            </button>
-          </div>
-        </div>
+            <Col className="mt-3 w-40" xs={12} sm={3} lg={3} xl={3}>
+              <button className="btn ">
+                <button>
+                  Göndər
+                  <CgArrowLongRight />
+                </button>
+              </button>
+            </Col>
+          </Row>
+        </Container>
       </form>
     </section>
   );

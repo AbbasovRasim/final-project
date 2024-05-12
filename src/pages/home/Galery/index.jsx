@@ -8,18 +8,9 @@ const HomeGalery = () => {
   return (
     <>
       <Swiper
-        // slidesPerView={3}
-        // loop={true}
-        // centeredSlides={true}
-        // // autoplay={{ delay: 1500 }}
-        // speed={1000}
-        // spaceBetween={20}
-        //   navigation={true}
-        pagination={{
-          dynamicBullets: true,
-        }}
+        pagination={{}}
         modules={[Pagination]}
-        className={`mt-5 home-galery-swiper`}
+        className={`mt-5 home-galery-swiper `}
       >
         <SwiperSlide>
           <HomeSwiper img={"./header/photo3.png"} />

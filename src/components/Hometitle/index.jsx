@@ -3,7 +3,7 @@ function Hometitle(props) {
   const { title, desc } = props;
   return (
     <div className="hometitle">
-      <h4> {title}</h4>
+      {title}
       {desc}
     </div>
   );
