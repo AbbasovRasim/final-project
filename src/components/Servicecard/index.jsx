@@ -16,7 +16,6 @@ function Servicecard(props) {
       <Col className="mt-5 service-card-left" xs={12} sm={6}>
         <img src={img} alt="" />
       </Col>
-
       <Col className="mt-5" xs={12} sm={6}>
         <h4 style={{ paddingTop: "50px", color: "white" }}>{title}</h4>
         <p style={{ color: "white" }}> {desc}</p>

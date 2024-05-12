@@ -40,7 +40,7 @@ const Portfolio = () => {
                 justifyContent: "space-between",
               }}
             >
-              {/* <button style={{ width: "15%" }}>Bütün layihələr</button>
+              <button style={{ width: "15%" }}>Bütün layihələr</button>
               <button style={{ width: "15%" }}>Interyer Dizayn</button>
               <button style={{ width: "25%" }}>
                 Eksteryer ve Landshaft dizayn
@@ -49,9 +49,7 @@ const Portfolio = () => {
                 Ticarət Obyektlərinin dizaynı
               </button>
 
-             
-             
-             <button style={{ width: "15%" }}>Layihələndirmə</button> */}
+              <button style={{ width: "15%" }}>Layihələndirmə</button>
             </div>
             <Row>
               {portfolio.map((obj) => {

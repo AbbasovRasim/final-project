@@ -281,6 +281,11 @@
       "email": "ras@mgokfgmikfd",
       "phone": "1234567",
       "message": "salam"
+    },
+    {
+      "id": "f1af",
+      "fullname": "rasim",
+      "phone": "0997010120"
     }
   ],
   "portfolio": [
@@ -300,42 +305,42 @@
     {
       "id": "2",
       "img": "/portfolioimages/photo23.png",
-      "title": "Lorem"
+      "title": "Mətbəx"
     },
     {
       "id": "3",
       "img": "/portfolioimages/photo21.png",
-      "title": "Lorem"
+      "title": "Məlumat duracağı"
     },
     {
       "id": "4",
       "img": "/portfolioimages/photo24.png",
-      "title": "Lorem"
+      "title": "Abidə"
     },
     {
       "id": "5",
       "img": "/portfolioimages/photo21.png",
-      "title": "Lorem"
+      "title": "Məlumat duracağı"
     },
     {
       "id": "6",
       "img": "/portfolioimages/photo22.png",
-      "title": "Lorem"
+      "title": "Yataq otağı"
     },
     {
       "id": "7",
       "img": "/portfolioimages/photo28.png",
-      "title": "Lorem"
+      "title": "İş masas"
     },
     {
       "id": "8",
       "img": "/portfolioimages/photo28.png",
-      "title": "Lorem"
+      "title": "İş masası"
     },
     {
       "id": "9",
       "img": "/portfolioimages/photo29.png",
-      "title": "Lorem"
+      "title": "Gəzinti kompleksi"
     }
   ],
   "services": [
