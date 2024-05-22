@@ -62,7 +62,10 @@ const index = () => {
                 to="/notfound"
               ></NavLink>
 
-              <Link to="/contact">
+              <Link
+                className={`${styles["custom-container"]} ${styles["form-content"]}`}
+                to="/contact"
+              >
                 <button>
                   <p>Əlaqə</p>
                 </button>

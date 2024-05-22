@@ -1,10 +1,10 @@
 import { useState } from "react";
 import styles from "./style.module.css";
-import { FaArrowRight } from "react-icons/fa";
+
 import axios from "axios";
 import toast from "react-hot-toast";
 import { Container, Row, Col } from "react-bootstrap";
-
+import { CgArrowLongRight } from "react-icons/cg";
 const ServicesContact = () => {
   const [formData, setFormData] = useState({
     fullname: "",
@@ -37,12 +37,12 @@ const ServicesContact = () => {
   };
 
   return (
-    <section className={styles["section-wrapper"]}>
+    <section className={styles["section-wrapper "]}>
       <div
         className={`${styles["custom-container"]} ${styles["form-content"]}`}
       >
         <form onSubmit={handleFormSubmit}>
-          <Container>
+          <Container className=" py-5 px-5 ">
             <Row>
               <Col className="mt-3 w-50" xs={12} sm={6} lg={6} xl={6}>
                 <input
@@ -117,11 +117,18 @@ const ServicesContact = () => {
                 />
               </Col>
             </Row>
-
-            <div className="btn mt-5 text-right">
-              <button className="me-2">Göndər</button>>
-            </div>
           </Container>
+          <div
+            style={{ display: "flex", justifyContent: "right" }}
+            className="btn text-right"
+          >
+            <button
+              className="me-2
+            my-3"
+            >
+              Göndər <CgArrowLongRight />
+            </button>
+          </div>
         </form>
       </div>
     </section>

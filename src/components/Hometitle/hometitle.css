@@ -1,3 +1,15 @@
-.hometitle {
+.home-card-header {
+  font-family: Baskerville;
   color: white;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 37, 86;
+}
+
+.home-card-text {
+  font-family: San Francisco;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32, 49;
 }

@@ -1,36 +1,13 @@
 import "./homejobstep.css";
-
 function Homejobstep(props) {
-  const { title, desc } = props;
+  const { title, desc, desc1 } = props;
   return (
-    <div style={{ color: "white" }}>
-      <div
-        style={{
-          fontSize: "San Francisco",
-          FontWeight: "400",
-          FontSize: "36px",
-          LineHeight: "42.96px",
-          Width: "38px",
-          Height: "43px",
-        }}
-      >
-        {title}
-      </div>
+    <>
+      <h4 className="homejobstep-title"> {title} </h4>
 
-      <div
-        style={{
-          fontFamily: "San Francisco",
-          FontWeight: "400",
-          FontSize: "36px",
-          LineHeight: "42.96px",
-          Width: "38px",
-          Height: "43px",
-        }}
-      >
-        {" "}
-        {desc}
-      </div>
-    </div>
+      <p className="homejobstep-desc"> {desc}</p>
+      <p className="homejobstep-desc1"> {desc1}</p>
+    </>
   );
 }
 export default Homejobstep;

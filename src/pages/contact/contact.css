@@ -1,3 +1,12 @@
 .contact {
   background-color: #565656;
 }
+
+.contactheader {
+  font-family: Petrona;
+  color: white;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 54, 1;
+  text-align: center;
+}

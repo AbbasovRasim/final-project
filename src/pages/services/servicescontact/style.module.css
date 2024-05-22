@@ -23,13 +23,12 @@
   line-height: 32px;
   color: #435072;
 } */
-/* 
 .form-content button {
-  background-color: #435072;
+  background-color: rgba(159, 181, 118, 1);
   color: #fff;
 }
 
 .form-content button:hover {
-  color: #435072;
-  border: 1px solid #435072;
-} */
+  color: white;
+  border: 1px solid white;
+}

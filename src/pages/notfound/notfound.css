@@ -4,3 +4,12 @@
 .notfoundbutton {
   text-align: center;
 }
+
+.NotFoundheader {
+  font-family: Baskerville;
+  color: white;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 50, 48;
+  text-align: center;
+}

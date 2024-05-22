@@ -3,7 +3,7 @@ import { CgArrowLongRight } from "react-icons/cg";
 import axios from "axios";
 import toast from "react-hot-toast";
 import { Container, Row, Col } from "react-bootstrap";
-
+import styles from "./style.module.css";
 const HomeContact = () => {
   const [formData, setFormData] = useState({
     fullname: "",
@@ -32,47 +32,43 @@ const HomeContact = () => {
   return (
     <section>
       <form onSubmit={handleFormSubmit}>
-        <Container className=" border my-5 py-5">
-          <Row>
-            <Col className="mt-3 my-5" xs={12} sm={3} lg={3} xl={3}>
-              <input
-                className="p-2 rounded-2 border  w-30"
-                type="text"
-                name=""
-                value={formData.fullname}
-                placeholder="Adınız və Soyadınız"
-                onChange={(e) => {
-                  //   setFormData({ ...formData, fullname: e.target.value });
-                  setFormData((prev) => {
-                    return { ...prev, fullname: e.target.value };
-                  });
-                }}
-              />
-            </Col>
-            <Col className="mt-3 " xs={12} sm={6} lg={6} xl={6}>
-              <input
-                value={formData.phone}
-                className="p-2 rounded-2 border w-30"
-                type="text"
-                name=""
-                placeholder="Əlaqə nömrəsi"
-                onChange={(e) => {
-                  setFormData((prev) => {
-                    return { ...prev, phone: e.target.value };
-                  });
-                }}
-              />
-            </Col>
-
-            <Col className="mt-3 w-40" xs={12} sm={3} lg={3} xl={3}>
-              <button className="btn ">
-                <button>
-                  Göndər
-                  <CgArrowLongRight />
-                </button>
+        <Container className=" border my-5 py-5 px-5 ">
+          <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+            <input
+              className="p-2 rounded-2 border  w-30"
+              type="text"
+              name=""
+              value={formData.fullname}
+              placeholder="Adınız və Soyadınız"
+              onChange={(e) => {
+                //   setFormData({ ...formData, fullname: e.target.value });
+                setFormData((prev) => {
+                  return { ...prev, fullname: e.target.value };
+                });
+              }}
+            />
+            <input
+              value={formData.phone}
+              className="p-2 rounded-2 border w-30"
+              type="text"
+              name=""
+              placeholder="Əlaqə nömrəsi"
+              onChange={(e) => {
+                setFormData((prev) => {
+                  return { ...prev, phone: e.target.value };
+                });
+              }}
+            />
+            \
+            <button
+              className={` btn, ${styles["custom-container"]} ${styles["form-content"]}`}
+            >
+              <button>
+                Göndər
+                <CgArrowLongRight />
               </button>
-            </Col>
-          </Row>
+            </button>
+          </div>
         </Container>
       </form>
     </section>

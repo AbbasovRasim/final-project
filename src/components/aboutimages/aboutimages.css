@@ -1,0 +1,13 @@
+.mm {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.md {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+
+  color: white;
+}

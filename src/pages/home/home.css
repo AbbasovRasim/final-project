@@ -3,10 +3,26 @@ h1 {
   padding-top: 50px;
 }
 
-.button {
-  margin-top: 40px;
+.home {
+  background-color: #565656;
 }
 
-.backgroundhome {
-  background-color: #565656;
+.homecards {
+  align-items: center;
+}
+.homeheader {
+  font-family: Baskerville;
+  color: white;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 50, 48;
+}
+
+.homeswipertitle {
+  font-family: Baskerville;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 43, 32;
+  text-align: center;
 }

@@ -286,6 +286,143 @@
       "id": "f1af",
       "fullname": "rasim",
       "phone": "0997010120"
+    },
+    {
+      "id": "a6ea",
+      "fullname": "z",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "efeb",
+      "fullname": "",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "cc99",
+      "fullname": "",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "0a65",
+      "fullname": "Rasim Abbasov",
+      "phone": "0997010120"
+    },
+    {
+      "id": "ce51",
+      "fullname": "",
+      "phone": ""
+    },
+    {
+      "id": "19c8",
+      "fullname": "",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "af6c",
+      "fullname": "",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "7a95",
+      "fullname": "",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "19e0",
+      "fullname": "",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "1ad0",
+      "fullname": "",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "acc1",
+      "fullname": "",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "c8db",
+      "fullname": "",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "e935",
+      "fullname": "",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "c82f",
+      "fullname": "",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "82c4",
+      "fullname": "",
+      "phone": ""
+    },
+    {
+      "id": "17ac",
+      "fullname": "dcdc",
+      "phone": "cdcdcdcdc"
+    },
+    {
+      "id": "eaff",
+      "fullname": "",
+      "phone": ""
+    },
+    {
+      "id": "3c73",
+      "fullname": "",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "b2dd",
+      "fullname": "",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
     }
   ],
   "portfolio": [
@@ -330,7 +467,7 @@
     {
       "id": "7",
       "img": "/portfolioimages/photo28.png",
-      "title": "İş masas"
+      "title": "İş masası"
     },
     {
       "id": "8",
@@ -350,7 +487,7 @@
       "title": "İnteryer dizayn",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ",
       "title2": "Interyer dizayn",
-      "img2": "/portfolioimages/photo22.png",
+      "img2": "/header/photo23.png",
       "desc2": "Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir. İllərdir günümüzə qədər gələn və daxili dizaynlarda istifadə edilən üslubların məkana görə düzgün seçimi vacib amillərdəndir. ",
       "title3": "İşlərimiz"
     },

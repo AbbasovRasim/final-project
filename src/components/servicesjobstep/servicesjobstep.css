@@ -1,4 +1,4 @@
-.homejobstep-title {
+.servicesjobstep-title {
   font-family: San Francisco;
   color: white;
   font-size: 36px;
@@ -6,7 +6,7 @@
   line-height: 42, 96;
 }
 
-.homejobstep-desc {
+.servicesjobstep-desc {
   font-family: San Francisco;
   color: white;
   font-size: 24px;
@@ -14,7 +14,7 @@
   line-height: 43, 32;
 }
 
-.homejobstep-desc1 {
+.servicesjobstep-desc1 {
   width: 215px;
   left: 970px;
   color: white;

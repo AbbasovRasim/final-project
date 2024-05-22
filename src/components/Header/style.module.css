@@ -18,13 +18,13 @@
 nav {
   display: flex;
   gap: 15px;
-  color: #6d80b0;
+  color: white;
   /* font-size: small; */
   align-items: center;
 }
 
 .color {
-  color: hsl(223, 26%, 35%);
+  color: white;
 }
 .navigation {
   display: flex;
@@ -46,4 +46,14 @@ button {
   align-items: center;
   color: white;
   background-color: rgba(159, 181, 118, 1);
+}
+
+.form-content button {
+  background-color: rgba(159, 181, 118, 1);
+  color: #fff;
+}
+
+.form-content button:hover {
+  color: white;
+  border: 1px solid white;
 }
