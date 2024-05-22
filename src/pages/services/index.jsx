@@ -11,9 +11,14 @@ const Services = () => {
   const [services, setServices] = useState([]);
 
   useEffect(() => {
-    axios.get(URL).then((res) => {
-      setServices(res.data);
-    });
+    axios
+      .get(URL)
+      .then((res) => {
+        setServices(res.data);
+      })
+      .catch((err) => {
+        console.log(err.message);
+      });
   }, []);
 
   return (
