@@ -423,6 +423,14 @@
       "email": "",
       "phone": "",
       "message": ""
+    },
+    {
+      "id": "6c3c",
+      "fullname": "aza",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
     }
   ],
   "portfolio": [
@@ -485,7 +493,7 @@
       "id": "1",
       "img": "/header/photo11.png",
       "title": "İnteryer dizayn",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ",
+      "desc": "Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir.",
       "title2": "Interyer dizayn",
       "img2": "/header/photo23.png",
       "desc2": "Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir. İllərdir günümüzə qədər gələn və daxili dizaynlarda istifadə edilən üslubların məkana görə düzgün seçimi vacib amillərdəndir. ",
@@ -495,13 +503,13 @@
       "id": "2",
       "img": "/header/photo14.png",
       "title": "Eksteryer və Landşaft dizayn",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris "
+      "desc": "Eksteryer dedikde ilk öncə ağıla gələn layihənin fasad görünüşüdür. Fasad dizaynında mütləq olaraq bina ölçüləri nəzərə alınmalıdır. Bu ölçülərə əsasən də üslub və bu üsluba uyğun materialı düzgün seçmək lazımdır. "
     },
     {
       "id": "3",
       "img": "/header/photo15.png",
       "title": "Ticarət Obyektlərinin dizaynı",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris "
+      "desc": "Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir."
     }
   ]
 }

@@ -130,7 +130,7 @@ const Home = () => {
               </Col>
             </Row>
           </Container>
-          <h2 className="Portfolioheader">Portfolio</h2>
+
           <div className="container">
             <HomeGalery2 />
             <p className="homeswipertitle">Lorem ipsum</p>

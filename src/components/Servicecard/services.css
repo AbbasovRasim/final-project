@@ -4,30 +4,3 @@
 .service-card {
   align-items: center;
 }
-
-.services-card-header {
-  font-family: Baskerville;
-  color: white;
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 37, 86;
-}
-
-.services-card-text {
-  font-family: San Francisco;
-  color: white;
-  font-size: 18px;
-  font-weight: 300;
-
-  line-height: 32, 49;
-}
-
-.form-content button {
-  background-color: rgba(159, 181, 118, 1);
-  color: #fff;
-}
-
-.form-content button:hover {
-  color: white;
-  border: 1px solid white;
-}
