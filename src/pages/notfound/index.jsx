@@ -9,7 +9,7 @@ const Notfound = () => {
     <>
       <div className="Notfound">
         <PageContainer>
-          <div className="container">
+          <div className="container ">
             <img src="header/photo16.png" alt="" />
 
             <h2 className="NotFoundheader">

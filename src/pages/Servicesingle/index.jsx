@@ -29,7 +29,7 @@ const Servicesingle = () => {
         <PageContainer>
           <Container>
             <h1 className="Servicestitle2">{servicesDetailsData.title2}</h1>
-            <Row className="ss">
+            <Row>
               <Col className="mt-5" xs={12} sm={6} lg={6} xl={6}>
                 <Image src={servicesDetailsData.img2} />
               </Col>

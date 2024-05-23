@@ -21,7 +21,7 @@ const Portfolio = () => {
     <>
       <PageContainer>
         <div className="Portfoliobackground">
-          <h1 className="Portfolioheader">Portfolio</h1>
+          <h1 className="Portfolioheader hr-lines">Portfolio</h1>
 
           <Container>
             <div

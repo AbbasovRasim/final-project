@@ -8,7 +8,7 @@ const About = () => {
     <>
       <PageContainer>
         <div className="Aboutbackground">
-          <h2 className="aboutheader  pt-5">Haqqımızda</h2>
+          <h2 className="aboutheader hr-lines pt-5">Haqqımızda</h2>
 
           <Container>
             <Row className="about-alignItem">

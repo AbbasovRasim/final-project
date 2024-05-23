@@ -10,3 +10,24 @@
   line-height: 54, 1;
   text-align: center;
 }
+.hr-lines:before {
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 400px;
+  position: absolute;
+  top: 25%;
+  left: 100px;
+  background: white;
+}
+
+.hr-lines:after {
+  content: " ";
+  height: 1px;
+  width: 400px;
+  background: white;
+  display: block;
+  position: absolute;
+  top: 25%;
+  right: 100px;
+}

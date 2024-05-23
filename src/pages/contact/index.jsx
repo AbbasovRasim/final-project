@@ -14,7 +14,7 @@ const Contact = () => {
     <>
       <div className="contact ">
         <PageContainer>
-          <h1 className="contactheader "> Əlaqə</h1>
+          <h1 className="contactheader hr-lines"> Əlaqə</h1>
           <Container>
             <div className=" mm mt-5">
               <p style={{ color: "white" }}> +994 55 867 62 07 </p>

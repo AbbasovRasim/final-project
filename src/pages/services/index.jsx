@@ -26,6 +26,7 @@ const Services = () => {
       <div className="Portfoliobackground">
         <PageContainer>
           <h1
+            className="hr-lines"
             style={{
               color: "white",
               font: "Baskerville",
@@ -56,7 +57,6 @@ const Services = () => {
 
           <h1 className="servicesheader ">İşimizin mərhələləri</h1>
           <Container>
-            {" "}
             <Row>
               <Col className="mt-5" xs={12} sm={3} lg={3} xl={3}>
                 <Servicesjobstep title="01" />
@@ -115,7 +115,7 @@ const Services = () => {
                 <Servicesjobstep desc1="Dizaynda istifadə olunmuş bütün materialların ölçülərinin çıxarılması və matrial alımı üçün bütün məlumatların hazırlanması" />
               </Col>
 
-              <Col className="mt-5" xs={12} sm={3} lg={3} xl={3}>
+              <Col className="mt-5  " xs={12} sm={3} lg={3} xl={3}>
                 <Servicesjobstep title="08" />
 
                 <Servicesjobstep desc="Dekor və mebel" />
