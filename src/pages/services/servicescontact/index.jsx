@@ -42,7 +42,7 @@ const ServicesContact = () => {
         className={`${styles["custom-container"]} ${styles["form-content"]}`}
       >
         <form onSubmit={handleFormSubmit}>
-          <Container className=" py-5 px-5 ">
+          <Container className=" py-5 px-5s ">
             <Row>
               <Col className="mt-3 w-50" xs={12} sm={6} lg={6} xl={6}>
                 <input
