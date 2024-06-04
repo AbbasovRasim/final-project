@@ -4,7 +4,7 @@ import styles from "./style.module.css";
 const index = () => {
   return (
     <header className={styles.header}>
-      <div className="container ">
+      <div className="container  ">
         <div className={styles.header_wrapper}>
           <div>
             <Link>
@@ -15,53 +15,62 @@ const index = () => {
           <div className={styles.header_wrapper}>
             <nav>
               <NavLink
-                style={{ color: "white", textDecoration: "none" }}
-                className={({ isActive }) => (isActive ? styles.active : "")}
+                className={({ isActive }) =>
+                  isActive ? styles.active : styles.link
+                }
                 to="/"
               >
                 Əsas səhifə
               </NavLink>
               <NavLink
-                style={{ color: "white", textDecoration: "none" }}
-                className={({ isActive }) => (isActive ? styles.active : "")}
+                className={({ isActive }) =>
+                  isActive ? styles.active : styles.link
+                }
                 to="/portfolio"
               >
                 Portfolio
               </NavLink>
               <NavLink
-                style={{ color: "white", textDecoration: "none" }}
-                className={({ isActive }) => (isActive ? styles.active : "")}
+                className={({ isActive }) =>
+                  isActive ? styles.active : styles.link
+                }
                 to="/services"
               >
                 Xidmətlər
               </NavLink>
               <NavLink
-                style={{ color: "white", textDecoration: "none" }}
-                className={({ isActive }) => (isActive ? styles.active : "")}
+                className={({ isActive }) =>
+                  isActive ? styles.active : styles.link
+                }
                 to="/contact"
               >
                 Əlaqə
               </NavLink>
               <NavLink
-                style={{ color: "white", textDecoration: "none" }}
-                className={({ isActive }) => (isActive ? styles.active : "")}
+                className={({ isActive }) =>
+                  isActive ? styles.active : styles.link
+                }
                 to="/about"
               >
                 Haqqımızda
               </NavLink>
               <NavLink
-                style={{ color: "white", textDecoration: "none" }}
-                className={({ isActive }) => (isActive ? styles.active : "")}
+                className={({ isActive }) =>
+                  isActive ? styles.active : styles.link
+                }
                 to="/amazing"
               >
                 Tİ-Amazing Academy
               </NavLink>
 
               <NavLink
-                className={({ isActive }) => (isActive ? styles.active : "")}
+                className={({ isActive }) =>
+                  isActive ? styles.active : styles.link
+                }
                 to="/notfound"
               ></NavLink>
 
+              <Link style={{ color: "white" }}>AZ</Link>
               <Link
                 className={`${styles["custom-container"]} ${styles["form-content"]}`}
                 to="/contact"

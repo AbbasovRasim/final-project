@@ -17,6 +17,9 @@
   max-width: 120px;
 }
 
+.jj {
+  align-items: center;
+}
 nav {
   display: flex;
   gap: 15px;

@@ -9,11 +9,15 @@ function Servicecard(props) {
 
   return (
     <Row className="service-card ">
-      <Col className="mt-5 service-card-left" xs={12} sm={6}>
+      <Col
+        className={`mt-5 p-0 service-card-left ${styles.image}`}
+        xs={12}
+        sm={6}
+      >
         <img src={img} alt="" />
       </Col>
       <Col className="mt-5" xs={12} sm={6}>
-        <h4 className="services-card-header"> {title}</h4>
+        <h4 className="services-card-header "> {title}</h4>
         <p className="services-card-text"> {desc}</p>
 
         <Link

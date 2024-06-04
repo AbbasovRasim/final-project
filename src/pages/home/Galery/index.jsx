@@ -1,6 +1,7 @@
 import HomeSwiper from "../../../components/HomeSwiper";
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "./Galery.css";
 // import { Navigation, Autoplay } from "swiper/modules";
 // import "./style.css";
 
@@ -10,7 +11,7 @@ const HomeGalery = () => {
       <Swiper
         pagination={{}}
         modules={[Pagination]}
-        className={`mt-5 home-galery-swiper `}
+        className={` mt-5 home-galery-swiper `}
       >
         <SwiperSlide>
           <HomeSwiper img={"./header/photo3.png"} />

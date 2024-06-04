@@ -42,11 +42,11 @@ const ServicesContact = () => {
         className={`${styles["custom-container"]} ${styles["form-content"]}`}
       >
         <form onSubmit={handleFormSubmit}>
-          <Container className=" py-5 px-5s ">
+          <Container className=" border p-3">
             <Row>
               <Col className="mt-3 w-50" xs={12} sm={6} lg={6} xl={6}>
                 <input
-                  className="p-2 rounded-2 border  w-100"
+                  className=" light-color  bg-transparent text-light   p-2 rounded-2 border  w-100"
                   type="text"
                   name=""
                   value={formData.fullname}
@@ -61,7 +61,7 @@ const ServicesContact = () => {
               </Col>
               <Col className="mt-3 w-50" xs={12} sm={6} lg={6} xl={6}>
                 <input
-                  className="p-2 rounded-2 border  w-100"
+                  className="p-2 rounded-2 border bg-transparent text-light  w-100"
                   type="text"
                   name=""
                   value={formData.Surname}
@@ -77,7 +77,7 @@ const ServicesContact = () => {
               <Col className="mt-3 w-50" xs={12} sm={6} lg={6} xl={6}>
                 <input
                   value={formData.email}
-                  className="p-2 rounded-2 border w-100"
+                  className="p-2    bg-transparent text-light  rounded-2 border w-100"
                   type="text"
                   name=""
                   placeholder="email"
@@ -91,7 +91,7 @@ const ServicesContact = () => {
               <Col className="mt-3 w-50" xs={12} sm={6} lg={6} xl={6}>
                 <input
                   value={formData.phone}
-                  className="p-2 rounded-2 border w-100"
+                  className="p-2 bg-transparent text-light  rounded-2 border w-100"
                   type="text"
                   name=""
                   placeholder="Telefon nomresi"
@@ -105,7 +105,7 @@ const ServicesContact = () => {
               <Col className="mt-3 w-100 " xs={12} sm={6} lg={6} xl={6}>
                 <input
                   value={formData.message}
-                  className="p-5 rounded-2 border w-100 h-100"
+                  className="p-5   bg-transparent text-light  rounded-2 border w-100 h-100"
                   type="text"
                   name=""
                   placeholder="Layihəniz haqqında bizə məlumat verin"

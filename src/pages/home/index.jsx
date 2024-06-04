@@ -7,8 +7,9 @@ import Hometitle from "../../components/Hometitle";
 import Homejobstep from "../../components/homejobstep";
 import HomeContact from "./contact";
 import { CgArrowLongRight } from "react-icons/cg";
-
+import styles from "./style.module.css";
 import HomeGalery2 from "./Galery2";
+
 const Home = () => {
   return (
     <>
@@ -21,7 +22,11 @@ const Home = () => {
 
           <Container>
             <Row className="homecards">
-              <Col className="mt-5" xs={12} sm={6} lg={6} xl={6}>
+              <Col
+                className={`mt-5 p-0 service-card-left ${styles.image}`}
+                xs={12}
+                sm={6}
+              >
                 <Homeimg img="./header/photo11.png" />
               </Col>
               <Col className="mt-5" xs={12} sm={6} lg={6} xl={6}>
@@ -41,11 +46,19 @@ const Home = () => {
                   Daha ətraflı <CgArrowLongRight />
                 </button>
               </Col>
-              <Col className="mt-5" xs={12} sm={6} lg={6} xl={6}>
+              <Col
+                className={`mt-5 p-0 service-card-left ${styles.image}`}
+                xs={12}
+                sm={6}
+              >
                 <Homeimg img="./header/photo14.png" />
               </Col>
 
-              <Col className="mt-5" xs={12} sm={6} lg={6} xl={6}>
+              <Col
+                className={`mt-5 p-0 service-card-left ${styles.image}`}
+                xs={12}
+                sm={6}
+              >
                 <Homeimg img="./header/photo15.png" />
               </Col>
               <Col className="mt-5 " xs={12} sm={6} lg={6} xl={6}>
@@ -63,7 +76,7 @@ const Home = () => {
           <h1 className="homeheader">İşimizin mərhələləri</h1>
           <Container>
             <Row>
-              <Col className="mt-5" xs={12} sm={3} lg={3} xl={3}>
+              <Col className="mt-5" xs={12} sm={6} lg={3} xl={3}>
                 <Homejobstep title="01" />
 
                 <Homejobstep desc="Ölçü Götürülməsi" />
@@ -71,7 +84,7 @@ const Home = () => {
                 <Homejobstep desc1="Layihələrin mövcud vəziyyətinin mövcud vəziyyətinin ölçülərinin götürülməsi, qeydlərin aparılması" />
               </Col>
 
-              <Col className="mt-5" xs={12} sm={3} lg={3} xl={3}>
+              <Col className="mt-5" xs={12} sm={6} lg={3} xl={3}>
                 <Homejobstep title="02" />
 
                 <Homejobstep desc="Bölgü planı" />
@@ -79,7 +92,7 @@ const Home = () => {
                 <Homejobstep desc1="Məkanın beton elementlərini eləcə də havalandırma santexnika şaxtalarının yerlərini nəzərə alaraq müştərinin də istəklərinə uyğun " />
               </Col>
 
-              <Col className="mt-5" xs={12} sm={3} lg={3} xl={3}>
+              <Col className="mt-5" xs={12} sm={6} lg={3} xl={3}>
                 <Homejobstep title="03" />
 
                 <Homejobstep desc="Mebel həlli planı" />
@@ -87,7 +100,7 @@ const Home = () => {
                 <Homejobstep desc1="Bərpa planından sonra yenilənmiş layihənin otaq bölgülərinə əsasən müştərinin istəyi ilə birgə müəyyən standartları da nəzərə alaraq mebel yerləşiminin işlənməsi." />
               </Col>
 
-              <Col className="mt-5" xs={12} sm={3} lg={3} xl={3}>
+              <Col className="mt-5" xs={12} sm={6} lg={3} xl={3}>
                 <Homejobstep title="04" />
 
                 <Homejobstep desc="Elektrik və santexnika təchizatı planı" />
@@ -97,7 +110,7 @@ const Home = () => {
             </Row>
 
             <Row>
-              <Col className="mt-5" xs={12} sm={3} lg={3} xl={3}>
+              <Col className="mt-5" xs={12} sm={6} lg={3} xl={3}>
                 <Homejobstep title="05" />
 
                 <Homejobstep desc="Məkanın dizayn və vizualizasiyası" />
@@ -105,7 +118,7 @@ const Home = () => {
                 <Homejobstep desc1="Yerləşim və mebel həlli planı hazır olduqdan sonra müştərinin də müəyyən istəkləri nəzərə alınaraq düzgün üslub seçimi ilə məkanın 3D, vizualizasiya işlərinin görülməsi." />
               </Col>
 
-              <Col className="mt-5" xs={12} sm={3} lg={3} xl={3}>
+              <Col className="mt-5" xs={12} sm={6} lg={3} xl={3}>
                 <Homejobstep title="06" />
 
                 <Homejobstep desc="Tavan ölçüləri" />
@@ -113,7 +126,7 @@ const Home = () => {
                 <Homejobstep desc1="Təsdiq olunmuş dizayna əsasən tavan alçıpan və elektrik ölçü xətlərinin düzgün işlənməsi. " />
               </Col>
 
-              <Col className="mt-5" xs={12} sm={3} lg={3} xl={3}>
+              <Col className="mt-5" xs={12} sm={6} lg={3} xl={3}>
                 <Homejobstep title="07" />
 
                 <Homejobstep desc="Kosmetik işlərin görülməsi" />
@@ -121,7 +134,7 @@ const Home = () => {
                 <Homejobstep desc1="Dizaynda istifadə olunmuş bütün materialların ölçülərinin çıxarılması və matrial alımı üçün bütün məlumatların hazırlanması" />
               </Col>
 
-              <Col className="mt-5" xs={12} sm={3} lg={3} xl={3}>
+              <Col className="mt-5" xs={12} sm={6} lg={3} xl={3}>
                 <Homejobstep title="08" />
 
                 <Homejobstep desc="Dekor və mebel" />

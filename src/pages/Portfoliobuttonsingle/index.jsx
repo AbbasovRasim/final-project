@@ -1,27 +1,29 @@
 import PageContainer from "../../components/PageContainer";
 import { Container, Row, Col } from "react-bootstrap";
 import { useParams } from "react-router-dom";
-import "./servicesingle.css";
+
 import { Image } from "react-bootstrap";
-import Servicescontact from "../services/servicescontact";
 
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const Servicesingle = () => {
+const Portfoliobuttonsingle = () => {
   const param = useParams();
-  const [servicesDetailsData, setServicesDetailsData] = useState({});
+  const [
+    PortfoliobuttonsingleDetailsData,
+    setPortfoliobuttonsingleDetailsData,
+  ] = useState({});
 
   useEffect(() => {
     axios
-      .get(`${import.meta.env.VITE_BASE_URL}/services/${param.sId}`)
+      .get(`${import.meta.env.VITE_BASE_URL}/PortfolioallCards/${param.pId}`)
       .then((res) => {
-        setServicesDetailsData(res.data);
+        setPortfoliobuttonsingleDetailsData(res.data);
       })
       .catch((err) => {
         console.log(err);
       });
-  }, [param.sId]);
+  }, [param.pId]);
 
   return (
     <>
@@ -29,17 +31,19 @@ const Servicesingle = () => {
         <PageContainer>
           <Container>
             <h1 className="Servicestitle2 hr-lin ">
-              {servicesDetailsData.title2}
+              {PortfoliobuttonsingleDetailsData.title2}
             </h1>
             <Row>
               <Col className="mt-5" xs={12} sm={6} lg={6} xl={6}>
-                <Image src={servicesDetailsData.img2} />
+                <Image src={PortfoliobuttonsingleDetailsData.img2} />
               </Col>
               <Col className="mt-5 servicesdesc2" xs={12} sm={6} lg={6} xl={6}>
-                {servicesDetailsData.desc2}
+                {PortfoliobuttonsingleDetailsData.desc2}
               </Col>
             </Row>
-            <h1 className="Servicestitle2">{servicesDetailsData.title3}</h1>
+            <h1 className="Servicestitle2">
+              {PortfoliobuttonsingleDetailsData.title3}
+            </h1>
           </Container>
 
           <h2 className="servicesheader">
@@ -49,11 +53,9 @@ const Servicesingle = () => {
           <Container>
             <Row className="align-item">
               <Col className="mt-3 mb-3" xs={12} sm={6} lg={6} xl={6}>
-                <Image src={servicesDetailsData.img2} />
+                <Image src={PortfoliobuttonsingleDetailsData.img2} />
               </Col>
-              <Col className="mt-5" xs={12} sm={6} lg={6} xl={6}>
-                <Servicescontact />
-              </Col>
+              <Col className="mt-5" xs={12} sm={6} lg={6} xl={6}></Col>
             </Row>
           </Container>
         </PageContainer>
@@ -62,4 +64,4 @@ const Servicesingle = () => {
   );
 };
 
-export default Servicesingle;
+export default Portfoliobuttonsingle;

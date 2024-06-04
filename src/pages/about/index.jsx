@@ -52,9 +52,13 @@ const About = () => {
               <h2 className="aboutheader">
                 Layihə sifariş etmək istəyirsiniz? Online müraciət göndərin
               </h2>
-              <Row className="align-item ">
+              <Row className=" align-items-strech my-3">
                 <Col className="mt-3" xs={12} sm={6} lg={6} xl={6}>
-                  <img src="header/photo19.png" alt="" />
+                  <img
+                    src="header/photo19.png"
+                    className="h-100 object-fit-cover"
+                    alt=""
+                  />
                 </Col>
                 <Col className="mt-3" xs={12} sm={6} lg={6} xl={6}>
                   <Servicescontact />

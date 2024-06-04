@@ -2,6 +2,7 @@ import PageContainer from "../../components/PageContainer";
 import { Container, Row, Col } from "react-bootstrap";
 import "./portfolio.css";
 import axios from "axios";
+import Portfoliobuttons from "../../components/Portfoliobuttons";
 import styles from "./style.module.css";
 
 import { useEffect, useState } from "react";
@@ -24,26 +25,35 @@ const Portfolio = () => {
           <h1 className="Portfolioheader hr-lines">Portfolio</h1>
 
           <Container>
-            <div
-              style={{
-                display: "flex",
-                gap: "15px",
-                justifyContent: "space-between",
-                marginBottom: "50px",
-                marginTop: "50px",
-              }}
-            >
-              <button style={{ width: "15%" }}>Bütün layihələr</button>
-              <button style={{ width: "15%" }}>Interyer Dizayn</button>
-              <button style={{ width: "25%" }}>
-                Eksteryer ve Landshaft dizayn
-              </button>
-              <button style={{ width: "25%" }}>
-                Ticarət Obyektlərinin dizaynı
-              </button>
+            {
+              // <div
+              //   className=" justify-content-around d-flex flex-lg-row flex-column "
+              //   style={{
+              //     gap: "15px",
+              //     marginBottom: "50px",
+              //     marginTop: "50px",
+              //     borderColor: "white",
+              //   }}
+              // >
+              //   <button className="  w-25 bg-transparent border">
+              //     Bütün layihələr
+              //   </button>
+              //   <button className="w-25  w-25 bg-transparent border">
+              //     Interyer Dizayn
+              //   </button>
+              //   <button className="w-50 w-25 bg-transparent border">
+              //     Eksteryer ve Landshaft dizayn
+              //   </button>
+              //   <button className="w-50 w-25 bg-transparent border">
+              //     Ticarət Obyektlərinin dizaynı
+              //   </button>
+              //   <button className="w-25 w-25 bg-transparent border">
+              //     Layihələndirmə
+              //   </button>
+              // </div>
 
-              <button style={{ width: "15%" }}>Layihələndirmə</button>
-            </div>
+              <Portfoliobuttons />
+            }
             <Row>
               {portfolio.map((obj) => {
                 return (
@@ -70,5 +80,4 @@ const Portfolio = () => {
     </>
   );
 };
-
 export default Portfolio;

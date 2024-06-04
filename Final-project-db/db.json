@@ -439,6 +439,64 @@
       "email": "",
       "phone": "",
       "message": "hghghgggyg"
+    },
+    {
+      "id": "05ea",
+      "fullname": "",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "c3ec",
+      "fullname": "",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "c56e",
+      "fullname": "",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "76b7",
+      "fullname": "rasim",
+      "Surname": "Abbasov",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "9a0f",
+      "fullname": "",
+      "phone": ""
+    },
+    {
+      "id": "b34e",
+      "fullname": "ljiouhujiou",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
+    },
+    {
+      "id": "851b",
+      "fullname": "vgvhbjino jbhbhij",
+      "phone": "256485654584"
+    },
+    {
+      "id": "0fb0",
+      "fullname": "rasim",
+      "Surname": "abbasov",
+      "email": "ras.abbasov@gmail.com",
+      "phone": "09970110120",
+      "message": "bsjcnsjdcbklnjvckjasdbvjkhsdbvcksdancjbadshb"
     }
   ],
   "portfolio": [
@@ -458,42 +516,106 @@
     {
       "id": "2",
       "img": "/portfolioimages/photo23.png",
-      "title": "Mətbəx"
+      "title": "Mətbəx",
+      "title1": "Mətbəx",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
+      "img1": "/portfolioimages/photo23.png",
+      "img2": "/portfolioimages/photo23.png",
+      "img3": "/portfolioimages/photo23.png",
+      "img4": "/portfolioimages/photo23.png",
+      "img5": "/portfolioimages/photo23.png",
+      "img6": "/portfolioimages/photo23.png"
     },
     {
       "id": "3",
       "img": "/portfolioimages/photo21.png",
-      "title": "Məlumat duracağı"
+      "title": "Məlumat duracağı",
+      "title1": "Məlumat duracağı",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
+      "img1": "/portfolioimages/photo21.png",
+      "img2": "/portfolioimages/photo21.png",
+      "img3": "/portfolioimages/photo21.png",
+      "img4": "/portfolioimages/photo21.png",
+      "img5": "/portfolioimages/photo21.png",
+      "img6": "/portfolioimages/photo21.png"
     },
     {
       "id": "4",
       "img": "/portfolioimages/photo24.png",
-      "title": "Abidə"
+      "title": "Abidə",
+      "title1": "Abidə",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
+      "img1": "/portfolioimages/photo24.png",
+      "img2": "/portfolioimages/photo24.png",
+      "img3": "/portfolioimages/photo24.png",
+      "img4": "/portfolioimages/photo24.png",
+      "img5": "/portfolioimages/photo24.png",
+      "img6": "/portfolioimages/photo24.png"
     },
     {
       "id": "5",
       "img": "/portfolioimages/photo21.png",
-      "title": "Məlumat duracağı"
+      "title": "Məlumat duracağı",
+      "title1": "Məlumat duracağı",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
+      "img1": "/portfolioimages/photo21.png",
+      "img2": "/portfolioimages/photo21.png",
+      "img3": "/portfolioimages/photo21.png",
+      "img4": "/portfolioimages/photo21.png",
+      "img5": "/portfolioimages/photo21.png",
+      "img6": "/portfolioimages/photo21.png"
     },
     {
       "id": "6",
       "img": "/portfolioimages/photo22.png",
-      "title": "Yataq otağı"
+      "title": "Yataq otağı",
+      "title1": "Yataq otağı",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
+      "img1": "/portfolioimages/singleportfolio1.png",
+      "img2": "/portfolioimages/singleportfolio2.png",
+      "img3": "/portfolioimages/singleportfolio3.png",
+      "img4": "/portfolioimages/singleportfolio4.png",
+      "img5": "/portfolioimages/singleportfolio3.png",
+      "img6": "/portfolioimages/singleportfolio4.png"
     },
     {
       "id": "7",
       "img": "/portfolioimages/photo28.png",
-      "title": "İş masası"
+      "title": "İş masası",
+      "title1": "İş masası",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
+      "img1": "/portfolioimages/photo28.png",
+      "img2": "/portfolioimages/photo28.png",
+      "img3": "/portfolioimages/photo28.png",
+      "img4": "/portfolioimages/photo28.png",
+      "img5": "/portfolioimages/photo28.png",
+      "img6": "/portfolioimages/photo28.png"
     },
     {
       "id": "8",
       "img": "/portfolioimages/photo28.png",
-      "title": "İş masası"
+      "title": "İş masası",
+      "title1": "İş masası",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
+      "img1": "/portfolioimages/photo28.png",
+      "img2": "/portfolioimages/photo28.png",
+      "img3": "/portfolioimages/photo28.png",
+      "img4": "/portfolioimages/photo28.png",
+      "img5": "/portfolioimages/photo28.png",
+      "img6": "/portfolioimages/photo28.png"
     },
     {
       "id": "9",
       "img": "/portfolioimages/photo29.png",
-      "title": "Gəzinti kompleksi"
+      "title": "Gəzinti kompleksi",
+      "title1": "Gəzinti kompleksi",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
+      "img1": "/portfolioimages/photo29.png",
+      "img2": "/portfolioimages/photo29.png",
+      "img3": "/portfolioimages/photo29.png",
+      "img4": "/portfolioimages/photo29.png",
+      "img5": "/portfolioimages/photo29.png",
+      "img6": "/portfolioimages/photo29.png"
     }
   ],
   "services": [
@@ -511,13 +633,94 @@
       "id": "2",
       "img": "/header/photo14.png",
       "title": "Eksteryer və Landşaft dizayn",
-      "desc": "Eksteryer dedikde ilk öncə ağıla gələn layihənin fasad görünüşüdür. Fasad dizaynında mütləq olaraq bina ölçüləri nəzərə alınmalıdır. Bu ölçülərə əsasən də üslub və bu üsluba uyğun materialı düzgün seçmək lazımdır. "
+      "desc": "Eksteryer dedikde ilk öncə ağıla gələn layihənin fasad görünüşüdür. Fasad dizaynında mütləq olaraq bina ölçüləri nəzərə alınmalıdır. Bu ölçülərə əsasən də üslub və bu üsluba uyğun materialı düzgün seçmək lazımdır. ",
+      "title2": "Eksteryer və Landşaft dizayn",
+      "img2": "/header/photo14.png",
+      "desc2": "Eksteryer dedikde ilk öncə ağıla gələn layihənin fasad görünüşüdür. Fasad dizaynında mütləq olaraq bina ölçüləri nəzərə alınmalıdır. Bu ölçülərə əsasən də üslub və bu üsluba uyğun materialı düzgün seçmək lazımdır.",
+      "title3": "İşlərimiz"
     },
     {
       "id": "3",
       "img": "/header/photo15.png",
       "title": "Ticarət Obyektlərinin dizaynı",
-      "desc": "Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir."
+      "desc": "Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir.",
+      "title2": "Ticarət Obyektlərinin dizaynı",
+      "img2": "/header/photo15.png",
+      "desc2": "Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir.",
+      "title3": "İşlərimiz"
     }
+  ],
+
+
+   "PortfolioallCards": [
+   
+   
+   {
+
+      
+      "id": "1",
+      "button":"Bütün Layihələr"
+    },
+   
+   
+   
+   
+   
+    {
+
+
+      
+      "id": "2",
+      "button":"Interyer dizayn",
+      "img": "/header/photo11.png",
+      "title": "İnteryer dizayn",
+      "desc": "Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir.",
+      "title2": "Interyer dizayn",
+      "img2": "/header/photo23.png",
+      "desc2": "Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir. İllərdir günümüzə qədər gələn və daxili dizaynlarda istifadə edilən üslubların məkana görə düzgün seçimi vacib amillərdəndir. ",
+      "title3": "İşlərimiz"
+    },
+    {
+      "id": "3",
+      "button":"Eksteryer və Landşaft dizayn",
+      "img": "/header/photo14.png",
+      "title": "Eksteryer və Landşaft dizayn",
+      "desc": "Eksteryer dedikde ilk öncə ağıla gələn layihənin fasad görünüşüdür. Fasad dizaynında mütləq olaraq bina ölçüləri nəzərə alınmalıdır. Bu ölçülərə əsasən də üslub və bu üsluba uyğun materialı düzgün seçmək lazımdır. ",
+      "title2": "Eksteryer və Landşaft dizayn",
+      "img2": "/header/photo14.png",
+      "desc2": "Eksteryer dedikde ilk öncə ağıla gələn layihənin fasad görünüşüdür. Fasad dizaynında mütləq olaraq bina ölçüləri nəzərə alınmalıdır. Bu ölçülərə əsasən də üslub və bu üsluba uyğun materialı düzgün seçmək lazımdır.",
+      "title3": "İşlərimiz"
+    },
+    {
+      "id": "4",
+      "button": "Ticarət Obyektlərinin dizaynı",
+      
+      "img": "/header/photo15.png",
+      "title": "Ticarət Obyektlərinin dizaynı",
+      "desc": "Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir.",
+      "title2": "Ticarət Obyektlərinin dizaynı",
+      "img2": "/header/photo15.png",
+      "desc2": "Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir.",
+      "title3": "İşlərimiz"
+    },
+
+
+
+
+
+ {
+      "id": "5",
+      "button": "Layihələndirmə"
+    }
+
+
+
+
+
+
+
+
+    
   ]
+
 }

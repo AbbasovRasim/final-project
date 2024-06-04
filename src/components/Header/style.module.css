@@ -31,9 +31,25 @@ nav {
   gap: 15px;
 }
 
-.active {
+.link {
   color: white;
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+.active {
+  position: relative;
+  color: #fff;
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  width: 110%;
+  left: -5%;
+  z-index: -1;
+  height: 10px;
+  bottom: 0;
+  background-color: #9fb576;
 }
 
 .relative {

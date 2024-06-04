@@ -58,7 +58,7 @@ const Services = () => {
           <h1 className="servicesheader ">İşimizin mərhələləri</h1>
           <Container>
             <Row>
-              <Col className="mt-5" xs={12} sm={3} lg={3} xl={3}>
+              <Col className="mt-5" xs={12} sm={6} lg={3} xl={3}>
                 <Servicesjobstep title="01" />
 
                 <Servicesjobstep desc="Ölçü Götürülməsi" />
@@ -66,7 +66,7 @@ const Services = () => {
                 <Servicesjobstep desc1="Layihələrin mövcud vəziyyətinin mövcud vəziyyətinin ölçülərinin götürülməsi, qeydlərin aparılması" />
               </Col>
 
-              <Col className="mt-5" xs={12} sm={3} lg={3} xl={3}>
+              <Col className="mt-5" xs={12} sm={6} lg={3} xl={3}>
                 <Servicesjobstep title="02" />
 
                 <Servicesjobstep desc="Bölgü planı" />
@@ -74,7 +74,7 @@ const Services = () => {
                 <Servicesjobstep desc1="Məkanın beton elementlərini eləcə də havalandırma santexnika şaxtalarının yerlərini nəzərə alaraq müştərinin də istəklərinə uyğun " />
               </Col>
 
-              <Col className="mt-5" xs={12} sm={3} lg={3} xl={3}>
+              <Col className="mt-5" xs={12} sm={6} lg={3} xl={3}>
                 <Servicesjobstep title="03" />
 
                 <Servicesjobstep desc="Mebel həlli planı" />
@@ -82,7 +82,7 @@ const Services = () => {
                 <Servicesjobstep desc1="Bərpa planından sonra yenilənmiş layihənin otaq bölgülərinə əsasən müştərinin istəyi ilə birgə müəyyən standartları da nəzərə alaraq mebel yerləşiminin işlənməsi." />
               </Col>
 
-              <Col className="mt-5" xs={12} sm={3} lg={3} xl={3}>
+              <Col className="mt-5" xs={12} sm={6} lg={3} xl={3}>
                 <Servicesjobstep title="04" />
 
                 <Servicesjobstep desc="Elektrik və santexnika təchizatı planı" />
@@ -91,7 +91,7 @@ const Services = () => {
               </Col>
             </Row>
             <Row>
-              <Col className="mt-5" xs={12} sm={3} lg={3} xl={3}>
+              <Col className="mt-5" xs={12} sm={6} lg={3} xl={3}>
                 <Servicesjobstep title="05" />
 
                 <Servicesjobstep desc="Məkanın dizayn və vizualizasiyası" />
@@ -99,7 +99,7 @@ const Services = () => {
                 <Servicesjobstep desc1="Yerləşim və mebel həlli planı hazır olduqdan sonra müştərinin də müəyyən istəkləri nəzərə alınaraq düzgün üslub seçimi ilə məkanın 3D, vizualizasiya işlərinin görülməsi." />
               </Col>
 
-              <Col className="mt-5" xs={12} sm={3} lg={3} xl={3}>
+              <Col className="mt-5" xs={12} sm={6} lg={3} xl={3}>
                 <Servicesjobstep title="06" />
 
                 <Servicesjobstep desc="Tavan ölçüləri" />
@@ -107,7 +107,7 @@ const Services = () => {
                 <Servicesjobstep desc1="Təsdiq olunmuş dizayna əsasən tavan alçıpan və elektrik ölçü xətlərinin düzgün işlənməsi. " />
               </Col>
 
-              <Col className="mt-5" xs={12} sm={3} lg={3} xl={3}>
+              <Col className="mt-5" xs={12} sm={6} lg={3} xl={3}>
                 <Servicesjobstep title="07" />
 
                 <Servicesjobstep desc="Kosmetik işlərin görülməsi" />
@@ -115,7 +115,7 @@ const Services = () => {
                 <Servicesjobstep desc1="Dizaynda istifadə olunmuş bütün materialların ölçülərinin çıxarılması və matrial alımı üçün bütün məlumatların hazırlanması" />
               </Col>
 
-              <Col className="mt-5  " xs={12} sm={3} lg={3} xl={3}>
+              <Col className="mt-5  " xs={12} sm={6} lg={3} xl={3}>
                 <Servicesjobstep title="08" />
 
                 <Servicesjobstep desc="Dekor və mebel" />

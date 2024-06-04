@@ -8,6 +8,8 @@ import Amazing from "./pages/amazing";
 import Notfound from "./pages/notfound";
 import Servicesingle from "./pages/Servicesingle";
 import Portfoliosinglecard from "./pages/Portfoliosinglecard";
+
+import Portfoliobuttonsingle from "./pages/Portfoliobuttonsingle";
 function App() {
   return (
     <Routes>
@@ -16,6 +18,10 @@ function App() {
       <Route path="/services/:sId" element={<Servicesingle />} />
       <Route path="/portfolio" element={<Portfolio />} />
       <Route path="/portfolio/:pId" element={<Portfoliosinglecard />} />
+      <Route
+        path="/portfolioallCards/:pId"
+        element={<Portfoliobuttonsingle />}
+      />
       <Route path="/contact" element={<Contact />} />
       <Route path="/about" element={<About />} />
       <Route path="/amazing" element={<Amazing />} />

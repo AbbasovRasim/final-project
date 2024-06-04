@@ -27,6 +27,7 @@ const Portfoliosinglecard = () => {
         <PageContainer>
           <Container>
             <h1
+              className="hr-lineses"
               style={{
                 color: "white",
                 font: "Baskerville",
@@ -64,7 +65,7 @@ const Portfoliosinglecard = () => {
               <Col className="mt-5" xs={12} sm={4} lg={4} xl={4}>
                 <Image src={portfolioDetailsData.img5} />
               </Col>
-              <Col className="mt-5 mb-5" xs={12} sm={4} lg={4} xl={4}>
+              <Col className="mt-5 mb-5 " xs={12} sm={4} lg={4} xl={4}>
                 <Image src={portfolioDetailsData.img6} />
               </Col>
             </Row>

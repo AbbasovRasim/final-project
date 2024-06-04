@@ -1,3 +1,25 @@
 .portfoliosinglecard {
   background-color: #565656;
 }
+
+.hr-lineses:before {
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 350px;
+  position: absolute;
+  top: 25%;
+  left: 100px;
+  background: white;
+}
+
+.hr-lineses:after {
+  content: " ";
+  height: 1px;
+  width: 350px;
+  background: white;
+  display: block;
+  position: absolute;
+  top: 25%;
+  right: 100px;
+}
