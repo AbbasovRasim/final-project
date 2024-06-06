@@ -52,7 +52,9 @@ const Portfolio = () => {
               //   </button>
               // </div>
 
-              <Portfoliobuttons />
+              <div className=" justify-content-around d-flex mt-5 ">
+                <Portfoliobuttons />
+              </div>
             }
             <Row>
               {portfolio.map((obj) => {

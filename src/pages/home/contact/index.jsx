@@ -59,7 +59,7 @@ const HomeContact = () => {
                 });
               }}
             />
-            \
+
             <button
               className={` btn, ${styles["custom-container"]} ${styles["form-content"]}`}
             >

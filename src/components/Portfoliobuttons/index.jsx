@@ -17,7 +17,7 @@ const Portfoliobuttons = () => {
     <>
       {portfolioallCards.map((obj) => {
         return (
-          <div key={obj.id} className=" mb-5 ">
+          <div key={obj.id} className="  mb-5  ">
             <PortfolioallCards id={obj.id} button={obj.button} />
           </div>
         );

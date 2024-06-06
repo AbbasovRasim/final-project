@@ -135,23 +135,22 @@ const index = () => {
           </div>
         </div>
 
-        <div className="d-flex flex-lg-row mt-5 md mt-3 pb-3">
-          <div className=" d-flex md  flex-lg-row flex-column">
-            <Link
-              className="d-flex align-items-center gap-2 link-light text-decoration-none"
-              target={"_blank"}
-              to={"https://www.instagram.com/"}
-            >
-              <BsInstagram style={{ verticalAlign: "sub" }} />
-            </Link>
-            <Link
-              className="d-flex align-items-center gap-2 link-light text-decoration-none"
-              target={"_blank"}
-              to={"https://whatsapp.com/"}
-            >
-              <BsWhatsapp style={{ verticalAlign: "sub" }} />
-            </Link>
-          </div>
+        <div className="d-flex flex-row mt-5 md mt-3 pb-3">
+          <Link
+            className="d-flex align-items-center gap-2 link-light text-decoration-none"
+            target={"_blank"}
+            to={"https://www.instagram.com/"}
+          >
+            <BsInstagram style={{ verticalAlign: "sub" }} />
+          </Link>
+          <Link
+            className="d-flex align-items-center gap-2 link-light text-decoration-none"
+            target={"_blank"}
+            to={"https://whatsapp.com/"}
+          >
+            <BsWhatsapp style={{ verticalAlign: "sub" }} />
+          </Link>
+
           <Link
             className="d-flex align-items-center gap-2 link-light text-decoration-none"
             target={"_blank"}
@@ -159,22 +158,22 @@ const index = () => {
           >
             <LuFacebook style={{ verticalAlign: "sub" }} />
           </Link>
-          <div className=" d-flex md  flex-lg-row flex-column">
-            <Link
-              className="d-flex align-items-center gap-2 link-light text-decoration-none"
-              target={"_blank"}
-              to={"https://az.linkedin.com/"}
-            >
-              <SlSocialLinkedin style={{ verticalAlign: "sub" }} />
-            </Link>
-            <Link
-              className="d-flex align-items-center gap-2 link-light text-decoration-none"
-              target={"_blank"}
-              to={"https://www.behance.net/"}
-            >
-              <FaSquareBehance style={{ verticalAlign: "sub" }} />{" "}
-            </Link>
-          </div>
+
+          <Link
+            className="d-flex align-items-center gap-2 link-light text-decoration-none"
+            target={"_blank"}
+            to={"https://az.linkedin.com/"}
+          >
+            <SlSocialLinkedin style={{ verticalAlign: "sub" }} />
+          </Link>
+          <Link
+            className="d-flex align-items-center gap-2 link-light text-decoration-none"
+            target={"_blank"}
+            to={"https://www.behance.net/"}
+          >
+            <FaSquareBehance style={{ verticalAlign: "sub" }} />{" "}
+          </Link>
+
           <div></div>
         </div>
       </Container>

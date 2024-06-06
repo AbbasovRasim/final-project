@@ -10,7 +10,7 @@ function PortfolioallCards(props) {
         className={`${styles["custom-container"]} ${styles["form-content"]}   `}
         to={`/portfolioallCards/${id}`}
       >
-        <button className="  w-25 w-25 bg-transparent border">{button}</button>
+        <button className="  w-100 bg-transparent border">{button}</button>
       </Link>
     </>
   );

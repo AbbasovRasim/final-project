@@ -41,22 +41,7 @@ const Portfoliobuttonsingle = () => {
                 {PortfoliobuttonsingleDetailsData.desc2}
               </Col>
             </Row>
-            <h1 className="Servicestitle2">
-              {PortfoliobuttonsingleDetailsData.title3}
-            </h1>
-          </Container>
-
-          <h2 className="servicesheader">
-            Layihə sifariş etmək istəyirsiniz? <br />
-            Online müraciət göndərin
-          </h2>
-          <Container>
-            <Row className="align-item">
-              <Col className="mt-3 mb-3" xs={12} sm={6} lg={6} xl={6}>
-                <Image src={PortfoliobuttonsingleDetailsData.img2} />
-              </Col>
-              <Col className="mt-5" xs={12} sm={6} lg={6} xl={6}></Col>
-            </Row>
+            <h1 className="Servicestitle2"></h1>
           </Container>
         </PageContainer>
       </div>
