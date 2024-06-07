@@ -13,7 +13,6 @@ const URL = "http://localhost:3004/portfolio";
 const Portfolio = () => {
   const [portfolio, setPortfolio] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
-
   const [searchParams] = useSearchParams(location);
 
   useEffect(() => {
@@ -67,7 +66,7 @@ const Portfolio = () => {
               //   </button>
               // </div>
 
-              <div className=" justify-content-around d-flex mt-5 ">
+              <div className="justify-content-between d-flex my-5 gap-4">
                 <Portfoliobuttons />
               </div>
             }

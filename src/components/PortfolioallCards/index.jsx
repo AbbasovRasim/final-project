@@ -7,7 +7,7 @@ function PortfolioallCards(props) {
   return (
     <>
       <Link
-        className={`${styles["custom-container"]} ${styles["form-content"]}   `}
+        className={`${styles["custom-container"]} ${styles["form-content"]} flex-grow-1`}
         to={`/portfolio?category=${button}`}
       >
         <button className="w-100 bg-transparent border">{button}</button>
