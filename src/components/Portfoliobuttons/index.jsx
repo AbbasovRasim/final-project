@@ -10,6 +10,7 @@ const Portfoliobuttons = () => {
   useEffect(() => {
     axios.get(URL).then((res) => {
       setPortfolioallCards(res.data);
+      console.log(res.data);
     });
   }, []);
 

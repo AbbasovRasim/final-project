@@ -5,18 +5,33 @@ import axios from "axios";
 import Portfoliobuttons from "../../components/Portfoliobuttons";
 import styles from "./style.module.css";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Portfoliocard from "../../components/Portfoliocard";
+import { useSearchParams } from "react-router-dom";
 const URL = "http://localhost:3004/portfolio";
 
 const Portfolio = () => {
   const [portfolio, setPortfolio] = useState([]);
+  const [filteredData, setFilteredData] = useState([]);
+
+  const [searchParams] = useSearchParams(location);
 
   useEffect(() => {
     axios.get(URL).then((res) => {
       setPortfolio(res.data);
     });
   }, []);
+
+  useMemo(() => {
+    const category = searchParams.get("category");
+
+    if (category === "Bütün Layihələr" || category === null) {
+      setFilteredData(portfolio);
+    } else {
+      const filtered = portfolio.filter((port) => category === port.category);
+      setFilteredData(filtered);
+    }
+  }, [portfolio, searchParams]);
 
   return (
     <>
@@ -57,24 +72,30 @@ const Portfolio = () => {
               </div>
             }
             <Row>
-              {portfolio.map((obj) => {
-                return (
-                  <Col
-                    key={obj.id}
-                    className=" mb-5"
-                    xs={12}
-                    sm={4}
-                    lg={4}
-                    xl={4}
-                  >
-                    <Portfoliocard
-                      id={obj.id}
-                      img={obj.img}
-                      title={obj.title}
-                    />
-                  </Col>
-                );
-              })}
+              {filteredData.length ? (
+                filteredData.map((obj) => {
+                  return (
+                    <Col
+                      key={obj.id}
+                      className=" mb-5"
+                      xs={12}
+                      sm={4}
+                      lg={4}
+                      xl={4}
+                    >
+                      <Portfoliocard
+                        id={obj.id}
+                        img={obj.img}
+                        title={obj.title}
+                      />
+                    </Col>
+                  );
+                })
+              ) : (
+                <h1 className="text-white my-5">
+                  Fiterə uyğun proyekt tapılmadı
+                </h1>
+              )}
             </Row>
           </Container>
         </div>

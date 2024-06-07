@@ -505,6 +505,7 @@
       "img": "/portfolioimages/photo18.png",
       "title": "Yataq otağı",
       "title1": "Yataq otağı",
+      "category": "Interyer dizayn",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
       "img1": "/portfolioimages/singleportfolio1.png",
       "img2": "/portfolioimages/singleportfolio2.png",
@@ -544,6 +545,7 @@
       "img": "/portfolioimages/photo24.png",
       "title": "Abidə",
       "title1": "Abidə",
+      "category": "Interyer dizayn",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
       "img1": "/portfolioimages/photo24.png",
       "img2": "/portfolioimages/photo24.png",
@@ -651,27 +653,14 @@
     }
   ],
 
-
-   "PortfolioallCards": [
-   
-   
-   {
-
-      
-      "id": "1",
-      "button":"Bütün Layihələr"
-    },
-   
-   
-   
-   
-   
+  "PortfolioallCards": [
     {
-
-
-      
+      "id": "1",
+      "button": "Bütün Layihələr"
+    },
+    {
       "id": "2",
-      "button":"Interyer dizayn",
+      "button": "Interyer dizayn",
       "img": "/header/photo11.png",
       "title": "İnteryer dizayn",
       "desc": "Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir.",
@@ -682,7 +671,7 @@
     },
     {
       "id": "3",
-      "button":"Eksteryer və Landşaft dizayn",
+      "button": "Eksteryer və Landşaft dizayn",
       "img": "/header/photo14.png",
       "title": "Eksteryer və Landşaft dizayn",
       "desc": "Eksteryer dedikde ilk öncə ağıla gələn layihənin fasad görünüşüdür. Fasad dizaynında mütləq olaraq bina ölçüləri nəzərə alınmalıdır. Bu ölçülərə əsasən də üslub və bu üsluba uyğun materialı düzgün seçmək lazımdır. ",
@@ -694,7 +683,7 @@
     {
       "id": "4",
       "button": "Ticarət Obyektlərinin dizaynı",
-      
+
       "img": "/header/photo15.png",
       "title": "Ticarət Obyektlərinin dizaynı",
       "desc": "Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir.",
@@ -704,23 +693,9 @@
       "title3": "İşlərimiz"
     },
 
-
-
-
-
- {
+    {
       "id": "5",
       "button": "Layihələndirmə"
     }
-
-
-
-
-
-
-
-
-    
   ]
-
 }

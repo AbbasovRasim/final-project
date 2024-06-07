@@ -8,9 +8,9 @@ function PortfolioallCards(props) {
     <>
       <Link
         className={`${styles["custom-container"]} ${styles["form-content"]}   `}
-        to={`/portfolioallCards/${id}`}
+        to={`/portfolio?category=${button}`}
       >
-        <button className="  w-100 bg-transparent border">{button}</button>
+        <button className="w-100 bg-transparent border">{button}</button>
       </Link>
     </>
   );
