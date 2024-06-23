@@ -503,6 +503,10 @@
     {
       "id": "1",
       "img": "/portfolioimages/photo18.png",
+      
+
+      
+      
       "title": "Yataq otağı",
       "title1": "Yataq otağı",
       "category": "Interyer dizayn",
@@ -533,6 +537,7 @@
       "img": "/portfolioimages/photo21.png",
       "title": "Məlumat duracağı",
       "title1": "Məlumat duracağı",
+       "category": "Ticarət Obyektlərinin dizaynı",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
       "img1": "/portfolioimages/photo21.png",
       "img2": "/portfolioimages/photo21.png",
@@ -546,7 +551,7 @@
       "img": "/portfolioimages/photo24.png",
       "title": "Abidə",
       "title1": "Abidə",
-      "category": "Interyer dizayn",
+      "category": "Layihələndirmə",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
       "img1": "/portfolioimages/photo24.png",
       "img2": "/portfolioimages/photo24.png",

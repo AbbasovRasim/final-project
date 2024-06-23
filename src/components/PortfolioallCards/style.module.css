@@ -1,0 +1,9 @@
+.form-content button {
+  background-color: rgba(159, 181, 118, 1);
+  color: #fff;
+}
+
+.form-content button:hover {
+  color: white;
+  border: 1px solid white;
+}
