@@ -511,7 +511,6 @@
     {
       "id": "1",
       "img": "/portfolioimages/photo18.png",
-          
       "title": "Yataq otağı",
       "title1": "Yataq otağı",
       "category": "Interyer dizayn",
@@ -570,6 +569,7 @@
       "img": "/portfolioimages/photo21.png",
       "title": "Məlumat duracağı",
       "title1": "Məlumat duracağı",
+      "category": "Layihələndirmə",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
       "img1": "/portfolioimages/photo21.png",
       "img2": "/portfolioimages/photo21.png",
@@ -583,6 +583,7 @@
       "img": "/portfolioimages/photo22.png",
       "title": "Yataq otağı",
       "title1": "Yataq otağı",
+      "category": "Layihələndirmə",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
       "img1": "/portfolioimages/singleportfolio1.png",
       "img2": "/portfolioimages/singleportfolio2.png",
@@ -622,6 +623,7 @@
       "img": "/portfolioimages/photo29.png",
       "title": "Gəzinti kompleksi",
       "title1": "Gəzinti kompleksi",
+      "category": "Eksteryer və Landşaft dizayn",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
       "img1": "/portfolioimages/photo29.png",
       "img2": "/portfolioimages/photo29.png",
@@ -672,7 +674,7 @@
       "id": "2",
       "button": "Interyer dizayn",
       "img": "/header/photo11.png",
-      
+
       "title": "İnteryer dizayn",
       "desc": "Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir.",
       "title2": "Interyer dizayn",

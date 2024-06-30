@@ -1,10 +1,11 @@
 import { NavLink, Link } from "react-router-dom";
 import styles from "./style.module.css";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const index = () => {
   return (
     <header className={styles.header}>
-      <div className="container  ">
+      <div className="container">
         <div className={styles.header_wrapper}>
           <div>
             <Link>
@@ -13,7 +14,7 @@ const index = () => {
           </div>
 
           <div className={styles.header_wrapper}>
-            <nav>
+            <nav className={styles.navbar}>
               <NavLink
                 className={({ isActive }) =>
                   isActive ? styles.active : styles.link
@@ -66,13 +67,6 @@ const index = () => {
                 Tİ-Amazing Academy
               </NavLink>
 
-              <NavLink
-                className={({ isActive }) =>
-                  isActive ? styles.active : styles.link
-                }
-                to="/notfound"
-              ></NavLink>
-
               <Link style={{ color: "white" }}>AZ</Link>
               <Link
                 className={`${styles["custom-container"]} ${styles["form-content"]}`}
@@ -83,7 +77,10 @@ const index = () => {
                 </button>
               </Link>
             </nav>
-            <button className="mobile-menu-btn">button</button>
+
+            <button className={styles["mobile-menu-btn"]}>
+              <GiHamburgerMenu />
+            </button>
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@
 
 .header_wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -15,11 +15,10 @@
   max-width: 120px;
 }
 
-nav {
+.navbar {
   display: flex;
   gap: 15px;
   color: white;
-  /* font-size: small; */
   align-items: center;
 }
 
@@ -62,6 +61,7 @@ button {
   align-items: center;
   color: white;
   background-color: rgba(159, 181, 118, 1);
+  border: 1px solid transparent;
 }
 
 .form-content button {
@@ -74,22 +74,18 @@ button {
   border: 1px solid white;
 }
 
-button {
+.mobile-menu-btn {
   display: none;
+  width: max-content;
+  padding: 0 10px;
+  margin-left: 10px;
 }
 
 @media (max-width: 900px) {
-  button {
-    display: block;
+  .mobile-menu-btn {
+    display: flex;
   }
-}
-
-nav NavLink {
-  display: inline;
-}
-
-@media (max-width: 900px) {
-  nav NavLink {
+  .navbar {
     display: none;
   }
 }

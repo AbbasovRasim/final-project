@@ -1,0 +1,15 @@
+.galerySwiper .swiper-slide-prev .card,
+.galerySwiper .swiper-slide-next .card {
+  height: 250px;
+}
+
+.galerySwiper .swiper-slide-active .card {
+  height: 270px;
+}
+
+.galerySwiper .swiper-slide-prev img,
+.galerySwiper .swiper-slide-next img,
+.galerySwiper .swiper-slide-active img {
+  height: 100%;
+  object-fit: cover;
+}
