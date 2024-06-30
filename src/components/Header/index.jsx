@@ -22,6 +22,7 @@ const index = () => {
               >
                 Əsas səhifə
               </NavLink>
+
               <NavLink
                 className={({ isActive }) =>
                   isActive ? styles.active : styles.link
@@ -46,6 +47,7 @@ const index = () => {
               >
                 Əlaqə
               </NavLink>
+
               <NavLink
                 className={({ isActive }) =>
                   isActive ? styles.active : styles.link
@@ -54,6 +56,7 @@ const index = () => {
               >
                 Haqqımızda
               </NavLink>
+
               <NavLink
                 className={({ isActive }) =>
                   isActive ? styles.active : styles.link
@@ -80,6 +83,7 @@ const index = () => {
                 </button>
               </Link>
             </nav>
+            <button className="mobile-menu-btn">button</button>
           </div>
         </div>
       </div>

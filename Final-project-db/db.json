@@ -497,16 +497,21 @@
       "email": "ras.abbasov@gmail.com",
       "phone": "09970110120",
       "message": "bsjcnsjdcbklnjvckjasdbvjkhsdbvcksdancjbadshb"
+    },
+    {
+      "id": "3bbf",
+      "fullname": "",
+      "Surname": "",
+      "email": "",
+      "phone": "",
+      "message": ""
     }
   ],
   "portfolio": [
     {
       "id": "1",
       "img": "/portfolioimages/photo18.png",
-      
-
-      
-      
+          
       "title": "Yataq otağı",
       "title1": "Yataq otağı",
       "category": "Interyer dizayn",
@@ -523,7 +528,7 @@
       "img": "/portfolioimages/photo23.png",
       "title": "Mətbəx",
       "title1": "Mətbəx",
-       "category": "Eksteryer və Landşaft dizayn",
+      "category": "Eksteryer və Landşaft dizayn",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
       "img1": "/portfolioimages/photo23.png",
       "img2": "/portfolioimages/photo23.png",
@@ -537,7 +542,7 @@
       "img": "/portfolioimages/photo21.png",
       "title": "Məlumat duracağı",
       "title1": "Məlumat duracağı",
-       "category": "Ticarət Obyektlərinin dizaynı",
+      "category": "Ticarət Obyektlərinin dizaynı",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
       "img1": "/portfolioimages/photo21.png",
       "img2": "/portfolioimages/photo21.png",
@@ -658,7 +663,6 @@
       "title3": "İşlərimiz"
     }
   ],
-
   "PortfolioallCards": [
     {
       "id": "1",
@@ -668,6 +672,7 @@
       "id": "2",
       "button": "Interyer dizayn",
       "img": "/header/photo11.png",
+      
       "title": "İnteryer dizayn",
       "desc": "Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir.",
       "title2": "Interyer dizayn",
@@ -689,7 +694,6 @@
     {
       "id": "4",
       "button": "Ticarət Obyektlərinin dizaynı",
-
       "img": "/header/photo15.png",
       "title": "Ticarət Obyektlərinin dizaynı",
       "desc": "Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir.",
@@ -698,7 +702,6 @@
       "desc2": "Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir.",
       "title3": "İşlərimiz"
     },
-
     {
       "id": "5",
       "button": "Layihələndirmə"

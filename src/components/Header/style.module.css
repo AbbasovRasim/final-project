@@ -73,3 +73,23 @@ button {
   color: white;
   border: 1px solid white;
 }
+
+button {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  button {
+    display: block;
+  }
+}
+
+nav NavLink {
+  display: inline;
+}
+
+@media (max-width: 900px) {
+  nav NavLink {
+    display: none;
+  }
+}

@@ -66,7 +66,7 @@ const Portfolio = () => {
               //   </button>
               // </div>
 
-              <div className="justify-content-between d-flex flex-lg-row flex-md-column my-5 gap-4">
+              <div className="justify-content-between d-flex my-5 gap-4">
                 <Portfoliobuttons />
               </div>
             }
