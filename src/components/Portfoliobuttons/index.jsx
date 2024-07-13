@@ -4,12 +4,12 @@ import PortfolioallCards from "../../components/PortfolioallCards";
 import { useEffect, useState } from "react";
 import { Row } from "react-bootstrap";
 
-const URL = "http://localhost:3004/PortfolioallCards";
+const url = `${import.meta.env.VITE_BASE_URL}/PortfolioallCards`;
 const Portfoliobuttons = () => {
   const [portfolioallCards, setPortfolioallCards] = useState([]);
 
   useEffect(() => {
-    axios.get(URL).then((res) => {
+    axios.get(url).then((res) => {
       setPortfolioallCards(res.data);
       console.log(res.data);
     });

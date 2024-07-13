@@ -5,14 +5,14 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import Servicecard from "../../components/Servicecard";
 import Servicesjobstep from "../../components/servicesjobstep";
-const URL = "http://localhost:3004/services";
+const url = `${import.meta.env.VITE_BASE_URL}/services`;
 
 const Services = () => {
   const [services, setServices] = useState([]);
 
   useEffect(() => {
     axios
-      .get(URL)
+      .get(url)
       .then((res) => {
         setServices(res.data);
       })

@@ -12,9 +12,10 @@ const HomeContact = () => {
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
+    const url = `${import.meta.env.VITE_BASE_URL}/contact`;
 
     axios
-      .post(`http://localhost:3004/contact`, formData)
+      .post(url, formData)
       .then((res) => {
         if (res.status === 201) {
           toast.success("Your email is being received!");

@@ -3,12 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./portfolio.css";
 import axios from "axios";
 import Portfoliobuttons from "../../components/Portfoliobuttons";
-import styles from "./style.module.css";
 
 import { useEffect, useMemo, useState } from "react";
 import Portfoliocard from "../../components/Portfoliocard";
 import { useSearchParams } from "react-router-dom";
-const URL = "http://localhost:3004/portfolio";
+const url = `${import.meta.env.VITE_BASE_URL}/portfolio`;
 
 const Portfolio = () => {
   const [portfolio, setPortfolio] = useState([]);
@@ -16,7 +15,7 @@ const Portfolio = () => {
   const [searchParams] = useSearchParams(location);
 
   useEffect(() => {
-    axios.get(URL).then((res) => {
+    axios.get(url).then((res) => {
       setPortfolio(res.data);
     });
   }, []);
