@@ -25,21 +25,9 @@ const Services = () => {
     <>
       <div className="Portfoliobackground">
         <PageContainer>
-          <h1
-            className="hr-lines"
-            style={{
-              color: "white",
-              font: "Baskerville",
-              fontSize: "48px",
-              fontWeight: "400",
-              lineHeight: "50,48px",
-              marginBottom: "50px",
-            }}
-          >
-            Xidmətlərimiz
-          </h1>
-
           <Container>
+            <h1 className="hr-lines">Xidmətlərimiz</h1>
+
             <Row>
               {services.map((obj) => {
                 return (

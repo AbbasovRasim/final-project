@@ -33,11 +33,11 @@ const Portfolio = () => {
 
   return (
     <>
-      <PageContainer>
-        <div className="Portfoliobackground">
-          <h1 className="Portfolioheader hr-lines">Portfolio</h1>
-
+      <div className="Portfoliobackground">
+        <PageContainer>
           <Container>
+            <h1 className="Portfolioheader hr-lines">Portfolio</h1>
+
             <div className="my-5">
               <Portfoliobuttons />
             </div>
@@ -69,8 +69,8 @@ const Portfolio = () => {
               )}
             </Row>
           </Container>
-        </div>
-      </PageContainer>
+        </PageContainer>
+      </div>
     </>
   );
 };

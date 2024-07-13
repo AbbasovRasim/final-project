@@ -12,10 +12,11 @@ import { Container, Row, Col } from "react-bootstrap";
 const Contact = () => {
   return (
     <>
-      <div className="contact ">
+      <div className="contact">
         <PageContainer>
           <Container>
-            <h1 className="contactheader  hr-lines"> Əlaqə</h1>
+            <h1 className="contactheader hr-lines"> Əlaqə</h1>
+
             <div className=" d-flex flex-lg-row  mt-5  mm">
               <div className="d-flex md  flex-lg-row flex-column">
                 <p style={{ color: "white" }}> +994 55 867 62 07 </p>
@@ -28,7 +29,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="         d-flex flex-lg-row flex-column mt-5 md mt-3 mb-5">
+            <div className="d-flex flex-lg-row flex-column mt-5 md mt-3 mb-5">
               <Link
                 className="d-flex align-items-center gap-2 link-light text-decoration-none"
                 target={"_blank"}

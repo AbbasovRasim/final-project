@@ -6,11 +6,11 @@ import Aboutimages from "../../components/aboutimages";
 const About = () => {
   return (
     <>
-      <PageContainer>
-        <div className="Aboutbackground">
-          <h2 className="aboutheader hr-lines pt-5">Haqqımızda</h2>
-
+      <div className="Aboutbackground">
+        <PageContainer>
           <Container>
+            <h2 className="aboutheader hr-lines">Haqqımızda</h2>
+
             <Row className="about-alignItem">
               <Col className="mt-5 my-5" xs={12} sm={6} lg={6} xl={6}>
                 <img src="header/photo18.png" alt="" />
@@ -66,8 +66,8 @@ const About = () => {
               </Row>
             </Row>
           </Container>
-        </div>
-      </PageContainer>
+        </PageContainer>
+      </div>
     </>
   );
 };

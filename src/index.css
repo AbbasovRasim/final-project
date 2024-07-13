@@ -42,3 +42,41 @@ img {
   line-height: 32.49px;
   color: #fff;
 }
+
+.hr-lines {
+  position: relative;
+  margin-top: 50px;
+  padding: 0;
+  color: #fff;
+}
+
+.hr-lines:before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 33%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: white;
+  transform: translateY(-50%);
+}
+
+.hr-lines:after {
+  content: "";
+  height: 1px;
+  width: 33%;
+  background: white;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 576px) {
+  .hr-lines::after,
+  .hr-lines::before {
+    width: 25%;
+  }
+}
