@@ -1,5 +1,5 @@
 import HomeSwiper from "../../../components/HomeSwiper";
-import { Pagination } from "swiper/modules";
+import { EffectCoverflow, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./Galery.css";
 // import { Navigation, Autoplay } from "swiper/modules";
@@ -9,9 +9,28 @@ const HomeGalery = () => {
   return (
     <>
       <Swiper
-        pagination={{}}
-        modules={[Pagination]}
-        className={` mt-5 home-galery-swiper `}
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        loop={true}
+        breakpoints={{
+          0: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 3,
+          },
+        }}
+        autoplay={{ delay: 1500, pauseOnMouseEnter: true }}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        modules={[EffectCoverflow, Autoplay]}
+        className={"my-5 home-galery-swiper"}
       >
         <SwiperSlide>
           <HomeSwiper img={"./header/photo3.png"} />

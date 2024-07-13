@@ -47,25 +47,23 @@ const Portfoliosinglecard = () => {
               {portfolioDetailsData.desc}
             </p>
             <Row>
-              <Col className="mt-5" xs={12} sm={4} lg={4} xl={4}>
+              <Col className="mt-5 " xs={6} sm={4} lg={4} xl={4}>
                 <Image src={portfolioDetailsData.img1} />
               </Col>
-              <Col className="mt-5" xs={12} sm={4} lg={4} xl={4}>
+              <Col className="mt-5" xs={6} sm={4} lg={4} xl={4}>
                 <Image src={portfolioDetailsData.img2} />
               </Col>
-              <Col className="mt-5" xs={12} sm={4} lg={4} xl={4}>
+              <Col className="mt-5" xs={6} sm={4} lg={4} xl={4}>
                 <Image src={portfolioDetailsData.img3} />
               </Col>
-            </Row>
 
-            <Row>
-              <Col className="mt-5" xs={12} sm={4} lg={4} xl={4}>
+              <Col className="mt-5" xs={6} sm={4} lg={4} xl={4}>
                 <Image src={portfolioDetailsData.img4} />
               </Col>
-              <Col className="mt-5" xs={12} sm={4} lg={4} xl={4}>
+              <Col className="mt-5" xs={6} sm={4} lg={4} xl={4}>
                 <Image src={portfolioDetailsData.img5} />
               </Col>
-              <Col className="mt-5 mb-5 " xs={12} sm={4} lg={4} xl={4}>
+              <Col className="mt-5 mb-5 " xs={6} sm={4} lg={4} xl={4}>
                 <Image src={portfolioDetailsData.img6} />
               </Col>
             </Row>

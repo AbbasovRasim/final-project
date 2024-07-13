@@ -77,8 +77,8 @@ const Portfolio = () => {
                     <Col
                       key={obj.id}
                       className=" mb-5"
-                      xs={12}
-                      sm={4}
+                      xs={6}
+                      sm={6}
                       lg={4}
                       xl={4}
                     >

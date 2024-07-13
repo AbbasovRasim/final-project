@@ -52,6 +52,7 @@
 // };
 
 // export default index;
+import "./footer.css";
 import { NavLink } from "react-router-dom";
 import styles from "./style.module.css";
 import { Container, Row, Col } from "react-bootstrap";
@@ -67,7 +68,7 @@ const index = () => {
       <div className="container ">
         <div className={styles.header_wrapper}>
           <div className={styles.header_wrapper}>
-            <nav>
+            <nav className={styles.navbar}>
               <NavLink
                 style={{ color: "white", textDecoration: "none" }}
                 className={({ isActive }) => (isActive ? styles.active : "")}
@@ -121,20 +122,20 @@ const index = () => {
       </div>
 
       <Container>
-        <div className="border  mt-3"></div>
+        <div className="border  footer mt-3"></div>
+        <div className="footer">
+          <div className=" d-flex flex-lg-row  mt-5  mm">
+            <div className="d-flex md   flex-lg-row flex-column">
+              <p style={{ color: "white" }}> +994 55 867 62 07 </p>
+              <p style={{ color: "white" }}> +994 55 867 62 07 </p>
+            </div>
+            <div className="d-flex md  flex-lg-row flex-column">
+              <p style={{ color: "white" }}>ti_amazing@mail.ru</p>
 
-        <div className=" d-flex flex-lg-row  mt-5  mm">
-          <div className="d-flex md  flex-lg-row flex-column">
-            <p style={{ color: "white" }}> +994 55 867 62 07 </p>
-            <p style={{ color: "white" }}> +994 55 867 62 07 </p>
-          </div>
-          <div className="d-flex md  flex-lg-row flex-column">
-            <p style={{ color: "white" }}>ti_amazing@mail.ru</p>
-
-            <p style={{ color: "white" }}>Baku şəh., Cavadxan 14 </p>
+              <p style={{ color: "white" }}>Baku şəh., Cavadxan 14 </p>
+            </div>
           </div>
         </div>
-
         <div className="d-flex flex-row mt-5 md mt-3 pb-3">
           <Link
             className="d-flex align-items-center gap-2 link-light text-decoration-none"
@@ -173,8 +174,6 @@ const index = () => {
           >
             <FaSquareBehance style={{ verticalAlign: "sub" }} />{" "}
           </Link>
-
-          <div></div>
         </div>
       </Container>
     </header>

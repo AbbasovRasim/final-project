@@ -24,12 +24,12 @@ const Home = () => {
             <Row className="homecards">
               <Col
                 className={`mt-5 p-0 service-card-left ${styles.image}`}
-                xs={12}
+                xs={6}
                 sm={6}
               >
                 <Homeimg img="./header/photo11.png" />
               </Col>
-              <Col className="mt-5" xs={12} sm={6} lg={6} xl={6}>
+              <Col className="mt-5" xs={6} sm={6} lg={6} xl={6}>
                 <Hometitle title="İnteryer dizayn" />
 
                 <Hometitle desc="Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir." />
@@ -39,7 +39,7 @@ const Home = () => {
                 </button>
               </Col>
 
-              <Col className="mt-5" xs={12} sm={6} lg={6} xl={6}>
+              <Col className="mt-5" xs={6} sm={6} lg={6} xl={6}>
                 <Hometitle title="Eksteryer və Landşaft dizayn" />
                 <Hometitle desc="Eksteryer dedikde ilk öncə ağıla gələn layihənin fasad görünüşüdür. Fasad dizaynında mütləq olaraq bina ölçüləri nəzərə alınmalıdır. Bu ölçülərə əsasən də üslub və bu üsluba uyğun materialı düzgün seçmək lazımdır." />
                 <button>
@@ -48,7 +48,7 @@ const Home = () => {
               </Col>
               <Col
                 className={`mt-5 p-0 service-card-left ${styles.image}`}
-                xs={12}
+                xs={6}
                 sm={6}
               >
                 <Homeimg img="./header/photo14.png" />
@@ -56,12 +56,12 @@ const Home = () => {
 
               <Col
                 className={`mt-5 p-0 service-card-left ${styles.image}`}
-                xs={12}
+                xs={6}
                 sm={6}
               >
                 <Homeimg img="./header/photo15.png" />
               </Col>
-              <Col className="mt-5 " xs={12} sm={6} lg={6} xl={6}>
+              <Col className="mt-5 " xs={6} sm={6} lg={6} xl={6}>
                 <Hometitle title="Ticarət Obyektlərinin dizaynı" />
 
                 <Hometitle desc="Hər bir məkanın daxili dizaynının ayrılmaz hissəsi gözəllik və funksionallıqdırsa orada istifadə olunan aksesuar, dekor, işıq sistemi isə o dizayna fərqlilik verməsi, yadda qalan etməsidir." />
@@ -76,7 +76,7 @@ const Home = () => {
           <h1 className="homeheader">İşimizin mərhələləri</h1>
           <Container>
             <Row>
-              <Col className="mt-5" xs={12} sm={6} lg={3} xl={3}>
+              <Col className="mt-5" xs={6} sm={6} lg={3} xl={3}>
                 <Homejobstep title="01" />
 
                 <Homejobstep desc="Ölçü Götürülməsi" />

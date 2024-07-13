@@ -73,19 +73,3 @@ button {
   color: white;
   border: 1px solid white;
 }
-
-.mobile-menu-btn {
-  display: none;
-  width: max-content;
-  padding: 0 10px;
-  margin-left: 10px;
-}
-
-@media (max-width: 900px) {
-  .mobile-menu-btn {
-    display: flex;
-  }
-  .navbar {
-    display: none;
-  }
-}

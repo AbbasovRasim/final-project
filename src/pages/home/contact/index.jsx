@@ -32,10 +32,10 @@ const HomeContact = () => {
   return (
     <section>
       <form onSubmit={handleFormSubmit}>
-        <Container className=" border my-5 py-5 px-5 ">
-          <div className="   justify-content-around d-flex flex-lg-row flex-column ">
+        <Container className=" border my-5 py-5 px-5  ">
+          <div className="   justify-content-around d-flex flex-lg-row   flex-column  gap-5  ">
             <input
-              className="p-2 rounded-2 border bg-transparent text-light w-30"
+              className="p-2 rounded-2 border bg-transparent text-light w-30    "
               type="text"
               name=""
               value={formData.fullname}
@@ -49,7 +49,7 @@ const HomeContact = () => {
             />
             <input
               value={formData.phone}
-              className="p-2 rounded-2 border bg-transparent text-light w-30"
+              className="p-2 rounded-2 border bg-transparent text-light w-30  d-flex  flex-column"
               type="text"
               name=""
               placeholder="Əlaqə nömrəsi"
