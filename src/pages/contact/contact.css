@@ -13,8 +13,12 @@
 
 .contactheader {
   position: relative;
-  padding: 0;
+}
+
+.hr-lines {
+  position: relative;
   margin-top: 50px;
+  padding: 0;
 }
 
 .hr-lines:before {
