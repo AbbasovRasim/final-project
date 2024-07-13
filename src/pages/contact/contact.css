@@ -10,24 +10,40 @@
   line-height: 54, 1;
   text-align: center;
 }
+
+.contactheader {
+  position: relative;
+  padding: 0;
+  margin-top: 50px;
+}
+
 .hr-lines:before {
-  content: " ";
+  content: "";
   display: block;
   height: 1px;
-  width: 400px;
+  width: 33%;
   position: absolute;
-  top: 25%;
-  left: 100px;
+  top: 50%;
+  left: 0;
   background: white;
+  transform: translateY(-50%);
 }
 
 .hr-lines:after {
-  content: " ";
+  content: "";
   height: 1px;
-  width: 400px;
+  width: 33%;
   background: white;
   display: block;
   position: absolute;
-  top: 25%;
-  right: 100px;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 576px) {
+  .hr-lines::after,
+  .hr-lines::before {
+    width: 25%;
+  }
 }

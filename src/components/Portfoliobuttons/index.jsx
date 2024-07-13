@@ -2,6 +2,7 @@ import axios from "axios";
 
 import PortfolioallCards from "../../components/PortfolioallCards";
 import { useEffect, useState } from "react";
+import { Row } from "react-bootstrap";
 
 const URL = "http://localhost:3004/PortfolioallCards";
 const Portfoliobuttons = () => {
@@ -15,13 +16,11 @@ const Portfoliobuttons = () => {
   }, []);
 
   return (
-    <>
-      {portfolioallCards.map((obj) => {
-        return (
-          <PortfolioallCards key={obj.id} id={obj.id} button={obj.button} />
-        );
-      })}
-    </>
+    <Row className="justify-content-around">
+      {portfolioallCards.map((obj) => (
+        <PortfolioallCards key={obj.id} id={obj.id} button={obj.button} />
+      ))}
+    </Row>
   );
 };
 export default Portfoliobuttons;

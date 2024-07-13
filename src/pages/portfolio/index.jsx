@@ -39,37 +39,10 @@ const Portfolio = () => {
           <h1 className="Portfolioheader hr-lines">Portfolio</h1>
 
           <Container>
-            {
-              // <div
-              //   className=" justify-content-around d-flex flex-lg-row flex-column "
-              //   style={{
-              //     gap: "15px",
-              //     marginBottom: "50px",
-              //     marginTop: "50px",
-              //     borderColor: "white",
-              //   }}
-              // >
-              //   <button className="  w-25 bg-transparent border">
-              //     Bütün layihələr
-              //   </button>
-              //   <button className="w-25  w-25 bg-transparent border">
-              //     Interyer Dizayn
-              //   </button>
-              //   <button className="w-50 w-25 bg-transparent border">
-              //     Eksteryer ve Landshaft dizayn
-              //   </button>
-              //   <button className="w-50 w-25 bg-transparent border">
-              //     Ticarət Obyektlərinin dizaynı
-              //   </button>
-              //   <button className="w-25 w-25 bg-transparent border">
-              //     Layihələndirmə
-              //   </button>
-              // </div>
+            <div className="my-5">
+              <Portfoliobuttons />
+            </div>
 
-              <div className="justify-content-between d-flex my-5 gap-4">
-                <Portfoliobuttons />
-              </div>
-            }
             <Row>
               {filteredData.length ? (
                 filteredData.map((obj) => {

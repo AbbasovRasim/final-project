@@ -14,8 +14,9 @@ const Contact = () => {
     <>
       <div className="contact ">
         <PageContainer>
-          <h1 className="contactheader  hr-lines"> Əlaqə</h1>
           <Container>
+            <h1 className="contactheader  hr-lines"> Əlaqə</h1>
+
             <div className=" d-flex flex-lg-row  mt-5  mm">
               <div className="d-flex md  flex-lg-row flex-column">
                 <p style={{ color: "white" }}> +994 55 867 62 07 </p>
