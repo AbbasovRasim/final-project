@@ -74,9 +74,16 @@ img {
   transform: translateY(-50%);
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 992px) {
   .hr-lines::after,
   .hr-lines::before {
     width: 25%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hr-lines::after,
+  .hr-lines::before {
+    display: none;
   }
 }
