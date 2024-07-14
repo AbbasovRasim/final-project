@@ -27,7 +27,7 @@ const index = () => {
                 >
                   Əsas səhifə
                 </NavLink>
-                {/* 
+
                 <NavLink
                   className={({ isActive }) =>
                     isActive ? styles.active : styles.link
@@ -35,7 +35,7 @@ const index = () => {
                   to="/portfolio"
                 >
                   Portfolio
-                </NavLink> */}
+                </NavLink>
                 <NavLink
                   className={({ isActive }) =>
                     isActive ? styles.active : styles.link
